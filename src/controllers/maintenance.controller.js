@@ -1,0 +1,104 @@
+const ChampionModel = require('../models/champion.model');
+const { validateChampion } = require('../validators/champion.validator');
+const paths = require('../config/paths.config');
+const fs = require('fs');
+
+class MaintenanceController {
+  // Cargar archivo JSON completo de campeones
+  async cargarCampeones(req, res, next) {
+    try {
+      // Leer el archivo JSON
+      const jsonData = fs.readFileSync(paths.champions.jsonFile, 'utf8');
+      const championsData = JSON.parse(jsonData);
+
+      // Convertir el objeto en un array de campeones
+      const championsArray = Object.keys(championsData).map(year => ({
+        year: parseInt(year),
+        nombre: championsData[year].nombre,
+        apellido: championsData[year].apellido,
+        pais: championsData[year].pais,
+        equipo: championsData[year].equipo,
+        victorias: championsData[year].victorias,
+        puntos: championsData[year].puntos
+      }));
+
+      // Validar cada campeón
+      const errors = [];
+      championsArray.forEach((champion, index) => {
+        const { error } = validateChampion(champion);
+        if (error) {
+          errors.push({
+            year: champion.year,
+            errors: error.details.map(detail => detail.message)
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // SIEMPRE limpiar la colección antes de cargar
+      console.log('🗑️  Eliminando todos los registros existentes...');
+      const deleteResult = await ChampionModel.deleteAll();
+      console.log(`✅ ${deleteResult.deleted} registros eliminados`);
+
+      // Insertar todos los campeones
+      console.log('📝 Cargando nuevos campeones...');
+      const results = await ChampionModel.createMany(championsArray);
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} campeones cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          champions: results
+        }
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Cargar un solo campeón
+  async cargarCampeon(req, res, next) {
+    try {
+      const { error, value } = validateChampion(req.body);
+      
+      if (error) {
+        return res.status(400).json({
+          success: false,
+          message: 'Validation error',
+          errors: error.details.map(detail => detail.message)
+        });
+      }
+
+      // Verificar si ya existe un campeón para ese año
+      const existingChampion = await ChampionModel.getByYear(value.year);
+      if (existingChampion) {
+        return res.status(409).json({
+          success: false,
+          message: `Ya existe un campeón para el año ${value.year}`,
+          data: existingChampion
+        });
+      }
+
+      const champion = await ChampionModel.create(value);
+      
+      res.status(201).json({
+        success: true,
+        message: 'Campeón creado exitosamente',
+        data: champion
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+}
+
+module.exports = new MaintenanceController();
