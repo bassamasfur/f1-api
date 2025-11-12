@@ -30,32 +30,4 @@ router.post('/cargar-campeon', championsController.cargarCampeon);
  */
 router.get('/', championsController.getAllChampions);
 
-/**
- * @route   GET /api/champions/:id
- * @desc    Get champion by ID
- * @access  Public
- */
-router.get('/:id', championsController.getChampionById);
-
-/**
- * @route   GET /api/champions/year/:year
- * @desc    Get champion by year
- * @access  Public
- */
-router.get('/year/:year', championsController.getChampionByYear);
-
-/**
- * @route   PUT /api/champions/:id
- * @desc    Update champion
- * @access  Public
- */
-router.put('/:id', championsController.updateChampion);
-
-/**
- * @route   DELETE /api/champions/:id
- * @desc    Delete champion
- * @access  Public
- */
-router.delete('/:id', championsController.deleteChampion);
-
 module.exports = router;

@@ -26,24 +26,6 @@ class ChampionModel {
     }
   }
 
-  async getById(id) {
-    try {
-      const db = getFirestore();
-      const doc = await db.collection(this.collection).doc(id).get();
-      
-      if (!doc.exists) {
-        return null;
-      }
-
-      return {
-        id: doc.id,
-        ...doc.data()
-      };
-    } catch (error) {
-      throw new Error(`Error fetching champion: ${error.message}`);
-    }
-  }
-
   async getByYear(year) {
     try {
       const db = getFirestore();
@@ -107,47 +89,7 @@ class ChampionModel {
     }
   }
 
-  async update(id, data) {
-    try {
-      const db = getFirestore();
-      const docRef = db.collection(this.collection).doc(id);
-      
-      const doc = await docRef.get();
-      if (!doc.exists) {
-        return null;
-      }
 
-      await docRef.update({
-        ...data,
-        updatedAt: FieldValue.serverTimestamp()
-      });
-
-      const updatedDoc = await docRef.get();
-      return {
-        id: updatedDoc.id,
-        ...updatedDoc.data()
-      };
-    } catch (error) {
-      throw new Error(`Error updating champion: ${error.message}`);
-    }
-  }
-
-  async delete(id) {
-    try {
-      const db = getFirestore();
-      const docRef = db.collection(this.collection).doc(id);
-      
-      const doc = await docRef.get();
-      if (!doc.exists) {
-        return null;
-      }
-
-      await docRef.delete();
-      return { id, deleted: true };
-    } catch (error) {
-      throw new Error(`Error deleting champion: ${error.message}`);
-    }
-  }
 
   async deleteAll() {
     try {

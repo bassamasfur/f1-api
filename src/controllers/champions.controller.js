@@ -1,5 +1,5 @@
 const ChampionModel = require('../models/champion.model');
-const { validateChampion, validateChampionUpdate } = require('../validators/champion.validator');
+const { validateChampion } = require('../validators/champion.validator');
 const { getFirestore, admin } = require('../config/firebase.config');
 const paths = require('../config/paths.config');
 const fs = require('fs');
@@ -145,106 +145,6 @@ class ChampionsController {
         success: true,
         count: champions.length,
         data: champions
-      });
-    } catch (error) {
-      next(error);
-    }
-  }
-
-  // Obtener campeón por ID
-  async getChampionById(req, res, next) {
-    try {
-      const { id } = req.params;
-      const champion = await ChampionModel.getById(id);
-
-      if (!champion) {
-        return res.status(404).json({
-          success: false,
-          message: 'Champion not found'
-        });
-      }
-
-      res.status(200).json({
-        success: true,
-        data: champion
-      });
-    } catch (error) {
-      next(error);
-    }
-  }
-
-  // Obtener campeón por año
-  async getChampionByYear(req, res, next) {
-    try {
-      const { year } = req.params;
-      const champion = await ChampionModel.getByYear(year);
-
-      if (!champion) {
-        return res.status(404).json({
-          success: false,
-          message: `No se encontró campeón para el año ${year}`
-        });
-      }
-
-      res.status(200).json({
-        success: true,
-        data: champion
-      });
-    } catch (error) {
-      next(error);
-    }
-  }
-
-  // Actualizar campeón
-  async updateChampion(req, res, next) {
-    try {
-      const { id } = req.params;
-      const { error, value } = validateChampionUpdate(req.body);
-      
-      if (error) {
-        return res.status(400).json({
-          success: false,
-          message: 'Validation error',
-          errors: error.details.map(detail => detail.message)
-        });
-      }
-
-      const champion = await ChampionModel.update(id, value);
-
-      if (!champion) {
-        return res.status(404).json({
-          success: false,
-          message: 'Champion not found'
-        });
-      }
-
-      res.status(200).json({
-        success: true,
-        message: 'Campeón actualizado exitosamente',
-        data: champion
-      });
-    } catch (error) {
-      next(error);
-    }
-  }
-
-  // Eliminar campeón
-  async deleteChampion(req, res, next) {
-    try {
-      const { id } = req.params;
-      const result = await ChampionModel.delete(id);
-
-      if (!result) {
-        return res.status(404).json({
-          success: false,
-          message: 'Champion not found'
-        });
-      }
-
-      res.status(200).json({
-        success: true,
-        message: 'Campeón eliminado exitosamente',
-        data: result
       });
     } catch (error) {
       next(error);
