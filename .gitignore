@@ -12,6 +12,7 @@ datosf1-firebase-adminsdk-*.json
 !package.json
 !package-lock.json
 !recursos/campeones_f1.json
+!vercel.json
 
 # Logs
 logs/
