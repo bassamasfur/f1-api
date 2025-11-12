@@ -12,6 +12,7 @@ datosf1-firebase-adminsdk-*.json
 !package.json
 !package-lock.json
 !recursos/campeones_f1.json
+!recursos/campeones_por_edad.json
 !vercel.json
 
 # Logs
