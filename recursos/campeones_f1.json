@@ -1,0 +1,594 @@
+{
+  "1950": {
+    "nombre": "Giuseppe",
+    "apellido": "Farina",
+    "pais": "Italy",
+    "equipo": "Alfa Romeo",
+    "victorias": 3,
+    "puntos": 30
+  },
+  "1951": {
+    "nombre": "Juan Manuel",
+    "apellido": "Fangio",
+    "pais": "Argentina",
+    "equipo": "Alfa Romeo",
+    "victorias": 3,
+    "puntos": 31
+  },
+  "1952": {
+    "nombre": "Alberto",
+    "apellido": "Ascari",
+    "pais": "Italy",
+    "equipo": "Ferrari",
+    "victorias": 6,
+    "puntos": 36
+  },
+  "1953": {
+    "nombre": "Alberto",
+    "apellido": "Ascari",
+    "pais": "Italy",
+    "equipo": "Ferrari",
+    "victorias": 5,
+    "puntos": 34
+  },
+  "1954": {
+    "nombre": "Juan Manuel",
+    "apellido": "Fangio",
+    "pais": "Argentina",
+    "equipo": "Mercedes",
+    "victorias": 6,
+    "puntos": 42
+  },
+  "1955": {
+    "nombre": "Juan Manuel",
+    "apellido": "Fangio",
+    "pais": "Argentina",
+    "equipo": "Mercedes",
+    "victorias": 4,
+    "puntos": 40
+  },
+  "1956": {
+    "nombre": "Juan Manuel",
+    "apellido": "Fangio",
+    "pais": "Argentina",
+    "equipo": "Ferrari",
+    "victorias": 3,
+    "puntos": 30
+  },
+  "1957": {
+    "nombre": "Juan Manuel",
+    "apellido": "Fangio",
+    "pais": "Argentina",
+    "equipo": "Maserati",
+    "victorias": 4,
+    "puntos": 40
+  },
+  "1958": {
+    "nombre": "Mike",
+    "apellido": "Hawthorn",
+    "pais": "United Kingdom",
+    "equipo": "Ferrari",
+    "victorias": 1,
+    "puntos": 42
+  },
+  "1959": {
+    "nombre": "Jack",
+    "apellido": "Brabham",
+    "pais": "Australia",
+    "equipo": "Cooper",
+    "victorias": 2,
+    "puntos": 31
+  },
+  "1960": {
+    "nombre": "Jack",
+    "apellido": "Brabham",
+    "pais": "Australia",
+    "equipo": "Cooper",
+    "victorias": 5,
+    "puntos": 43
+  },
+  "1961": {
+    "nombre": "Phil",
+    "apellido": "Hill",
+    "pais": "United States",
+    "equipo": "Ferrari",
+    "victorias": 2,
+    "puntos": 34
+  },
+  "1962": {
+    "nombre": "Graham",
+    "apellido": "Hill",
+    "pais": "United Kingdom",
+    "equipo": "BRM",
+    "victorias": 4,
+    "puntos": 42
+  },
+  "1963": {
+    "nombre": "Jim",
+    "apellido": "Clark",
+    "pais": "United Kingdom",
+    "equipo": "Lotus",
+    "victorias": 7,
+    "puntos": 54
+  },
+  "1964": {
+    "nombre": "John",
+    "apellido": "Surtees",
+    "pais": "United Kingdom",
+    "equipo": "Ferrari",
+    "victorias": 2,
+    "puntos": 40
+  },
+  "1965": {
+    "nombre": "Jim",
+    "apellido": "Clark",
+    "pais": "United Kingdom",
+    "equipo": "Lotus",
+    "victorias": 6,
+    "puntos": 54
+  },
+  "1966": {
+    "nombre": "Jack",
+    "apellido": "Brabham",
+    "pais": "Australia",
+    "equipo": "Brabham",
+    "victorias": 4,
+    "puntos": 42
+  },
+  "1967": {
+    "nombre": "Denny",
+    "apellido": "Hulme",
+    "pais": "New Zealand",
+    "equipo": "Brabham",
+    "victorias": 2,
+    "puntos": 51
+  },
+  "1968": {
+    "nombre": "Graham",
+    "apellido": "Hill",
+    "pais": "United Kingdom",
+    "equipo": "Lotus",
+    "victorias": 3,
+    "puntos": 48
+  },
+  "1969": {
+    "nombre": "Jackie",
+    "apellido": "Stewart",
+    "pais": "United Kingdom",
+    "equipo": "Matra",
+    "victorias": 6,
+    "puntos": 63
+  },
+  "1970": {
+    "nombre": "Jochen",
+    "apellido": "Rindt",
+    "pais": "Austria",
+    "equipo": "Lotus",
+    "victorias": 5,
+    "puntos": 45
+  },
+  "1971": {
+    "nombre": "Jackie",
+    "apellido": "Stewart",
+    "pais": "United Kingdom",
+    "equipo": "Tyrrell",
+    "victorias": 6,
+    "puntos": 62
+  },
+  "1972": {
+    "nombre": "Emerson",
+    "apellido": "Fittipaldi",
+    "pais": "Brazil",
+    "equipo": "Lotus",
+    "victorias": 5,
+    "puntos": 61
+  },
+  "1973": {
+    "nombre": "Jackie",
+    "apellido": "Stewart",
+    "pais": "United Kingdom",
+    "equipo": "Tyrrell",
+    "victorias": 5,
+    "puntos": 71
+  },
+  "1974": {
+    "nombre": "Emerson",
+    "apellido": "Fittipaldi",
+    "pais": "Brazil",
+    "equipo": "McLaren",
+    "victorias": 3,
+    "puntos": 55
+  },
+  "1975": {
+    "nombre": "Niki",
+    "apellido": "Lauda",
+    "pais": "Austria",
+    "equipo": "Ferrari",
+    "victorias": 5,
+    "puntos": 64
+  },
+  "1976": {
+    "nombre": "James",
+    "apellido": "Hunt",
+    "pais": "United Kingdom",
+    "equipo": "McLaren",
+    "victorias": 6,
+    "puntos": 69
+  },
+  "1977": {
+    "nombre": "Niki",
+    "apellido": "Lauda",
+    "pais": "Austria",
+    "equipo": "Ferrari",
+    "victorias": 3,
+    "puntos": 72
+  },
+  "1978": {
+    "nombre": "Mario",
+    "apellido": "Andretti",
+    "pais": "United States",
+    "equipo": "Lotus",
+    "victorias": 6,
+    "puntos": 64
+  },
+  "1979": {
+    "nombre": "Jody",
+    "apellido": "Scheckter",
+    "pais": "South Africa",
+    "equipo": "Ferrari",
+    "victorias": 3,
+    "puntos": 51
+  },
+  "1980": {
+    "nombre": "Alan",
+    "apellido": "Jones",
+    "pais": "Australia",
+    "equipo": "Williams",
+    "victorias": 5,
+    "puntos": 67
+  },
+  "1981": {
+    "nombre": "Nelson",
+    "apellido": "Piquet",
+    "pais": "Brazil",
+    "equipo": "Brabham",
+    "victorias": 3,
+    "puntos": 50
+  },
+  "1982": {
+    "nombre": "Keke",
+    "apellido": "Rosberg",
+    "pais": "Finland",
+    "equipo": "Williams",
+    "victorias": 1,
+    "puntos": 44
+  },
+  "1983": {
+    "nombre": "Nelson",
+    "apellido": "Piquet",
+    "pais": "Brazil",
+    "equipo": "Brabham",
+    "victorias": 3,
+    "puntos": 59
+  },
+  "1984": {
+    "nombre": "Niki",
+    "apellido": "Lauda",
+    "pais": "Austria",
+    "equipo": "McLaren",
+    "victorias": 5,
+    "puntos": 72
+  },
+  "1985": {
+    "nombre": "Alain",
+    "apellido": "Prost",
+    "pais": "France",
+    "equipo": "McLaren",
+    "victorias": 5,
+    "puntos": 73
+  },
+  "1986": {
+    "nombre": "Alain",
+    "apellido": "Prost",
+    "pais": "France",
+    "equipo": "McLaren",
+    "victorias": 4,
+    "puntos": 72
+  },
+  "1987": {
+    "nombre": "Nelson",
+    "apellido": "Piquet",
+    "pais": "Brazil",
+    "equipo": "Williams",
+    "victorias": 3,
+    "puntos": 73
+  },
+  "1988": {
+    "nombre": "Ayrton",
+    "apellido": "Senna",
+    "pais": "Brazil",
+    "equipo": "McLaren",
+    "victorias": 8,
+    "puntos": 90
+  },
+  "1989": {
+    "nombre": "Alain",
+    "apellido": "Prost",
+    "pais": "France",
+    "equipo": "McLaren",
+    "victorias": 4,
+    "puntos": 76
+  },
+  "1990": {
+    "nombre": "Ayrton",
+    "apellido": "Senna",
+    "pais": "Brazil",
+    "equipo": "McLaren",
+    "victorias": 6,
+    "puntos": 78
+  },
+  "1991": {
+    "nombre": "Ayrton",
+    "apellido": "Senna",
+    "pais": "Brazil",
+    "equipo": "McLaren",
+    "victorias": 7,
+    "puntos": 96
+  },
+  "1992": {
+    "nombre": "Nigel",
+    "apellido": "Mansell",
+    "pais": "United Kingdom",
+    "equipo": "Williams",
+    "victorias": 9,
+    "puntos": 108
+  },
+  "1993": {
+    "nombre": "Alain",
+    "apellido": "Prost",
+    "pais": "France",
+    "equipo": "Williams",
+    "victorias": 7,
+    "puntos": 99
+  },
+  "1994": {
+    "nombre": "Michael",
+    "apellido": "Schumacher",
+    "pais": "Germany",
+    "equipo": "Benetton",
+    "victorias": 8,
+    "puntos": 92
+  },
+  "1995": {
+    "nombre": "Michael",
+    "apellido": "Schumacher",
+    "pais": "Germany",
+    "equipo": "Benetton",
+    "victorias": 9,
+    "puntos": 102
+  },
+  "1996": {
+    "nombre": "Damon",
+    "apellido": "Hill",
+    "pais": "United Kingdom",
+    "equipo": "Williams",
+    "victorias": 8,
+    "puntos": 97
+  },
+  "1997": {
+    "nombre": "Jacques",
+    "apellido": "Villeneuve",
+    "pais": "Canada",
+    "equipo": "Williams",
+    "victorias": 7,
+    "puntos": 81
+  },
+  "1998": {
+    "nombre": "Mika",
+    "apellido": "Häkkinen",
+    "pais": "Finland",
+    "equipo": "McLaren",
+    "victorias": 8,
+    "puntos": 100
+  },
+  "1999": {
+    "nombre": "Mika",
+    "apellido": "Häkkinen",
+    "pais": "Finland",
+    "equipo": "McLaren",
+    "victorias": 5,
+    "puntos": 76
+  },
+  "2000": {
+    "nombre": "Michael",
+    "apellido": "Schumacher",
+    "pais": "Germany",
+    "equipo": "Ferrari",
+    "victorias": 9,
+    "puntos": 108
+  },
+  "2001": {
+    "nombre": "Michael",
+    "apellido": "Schumacher",
+    "pais": "Germany",
+    "equipo": "Ferrari",
+    "victorias": 9,
+    "puntos": 123
+  },
+  "2002": {
+    "nombre": "Michael",
+    "apellido": "Schumacher",
+    "pais": "Germany",
+    "equipo": "Ferrari",
+    "victorias": 11,
+    "puntos": 144
+  },
+  "2003": {
+    "nombre": "Michael",
+    "apellido": "Schumacher",
+    "pais": "Germany",
+    "equipo": "Ferrari",
+    "victorias": 6,
+    "puntos": 93
+  },
+  "2004": {
+    "nombre": "Michael",
+    "apellido": "Schumacher",
+    "pais": "Germany",
+    "equipo": "Ferrari",
+    "victorias": 13,
+    "puntos": 148
+  },
+  "2005": {
+    "nombre": "Fernando",
+    "apellido": "Alonso",
+    "pais": "Spain",
+    "equipo": "Renault",
+    "victorias": 7,
+    "puntos": 133
+  },
+  "2006": {
+    "nombre": "Fernando",
+    "apellido": "Alonso",
+    "pais": "Spain",
+    "equipo": "Renault",
+    "victorias": 7,
+    "puntos": 134
+  },
+  "2007": {
+    "nombre": "Kimi",
+    "apellido": "Räikkönen",
+    "pais": "Finland",
+    "equipo": "Ferrari",
+    "victorias": 6,
+    "puntos": 110
+  },
+  "2008": {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "equipo": "McLaren",
+    "victorias": 5,
+    "puntos": 98
+  },
+  "2009": {
+    "nombre": "Jenson",
+    "apellido": "Button",
+    "pais": "United Kingdom",
+    "equipo": "Brawn",
+    "victorias": 6,
+    "puntos": 95
+  },
+  "2010": {
+    "nombre": "Sebastian",
+    "apellido": "Vettel",
+    "pais": "Germany",
+    "equipo": "Red Bull",
+    "victorias": 5,
+    "puntos": 256
+  },
+  "2011": {
+    "nombre": "Sebastian",
+    "apellido": "Vettel",
+    "pais": "Germany",
+    "equipo": "Red Bull",
+    "victorias": 11,
+    "puntos": 392
+  },
+  "2012": {
+    "nombre": "Sebastian",
+    "apellido": "Vettel",
+    "pais": "Germany",
+    "equipo": "Red Bull",
+    "victorias": 5,
+    "puntos": 281
+  },
+  "2013": {
+    "nombre": "Sebastian",
+    "apellido": "Vettel",
+    "pais": "Germany",
+    "equipo": "Red Bull",
+    "victorias": 13,
+    "puntos": 397
+  },
+  "2014": {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "equipo": "Mercedes",
+    "victorias": 11,
+    "puntos": 384
+  },
+  "2015": {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "equipo": "Mercedes",
+    "victorias": 10,
+    "puntos": 381
+  },
+  "2016": {
+    "nombre": "Nico",
+    "apellido": "Rosberg",
+    "pais": "Germany",
+    "equipo": "Mercedes",
+    "victorias": 9,
+    "puntos": 385
+  },
+  "2017": {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "equipo": "Mercedes",
+    "victorias": 9,
+    "puntos": 363
+  },
+  "2018": {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "equipo": "Mercedes",
+    "victorias": 11,
+    "puntos": 408
+  },
+  "2019": {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "equipo": "Mercedes",
+    "victorias": 11,
+    "puntos": 413
+  },
+  "2020": {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "equipo": "Mercedes",
+    "victorias": 11,
+    "puntos": 347
+  },
+  "2021": {
+    "nombre": "Max",
+    "apellido": "Verstappen",
+    "pais": "Netherlands",
+    "equipo": "Red Bull",
+    "victorias": 10,
+    "puntos": 395
+  },
+  "2022": {
+    "nombre": "Max",
+    "apellido": "Verstappen",
+    "pais": "Netherlands",
+    "equipo": "Red Bull",
+    "victorias": 15,
+    "puntos": 454
+  },
+  "2023": {
+    "nombre": "Max",
+    "apellido": "Verstappen",
+    "pais": "Netherlands",
+    "equipo": "Red Bull",
+    "victorias": 19,
+    "puntos": 575
+  }
+}

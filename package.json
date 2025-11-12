@@ -1,0 +1,35 @@
+{
+  "name": "f1-api",
+  "version": "1.0.0",
+  "description": "Formula 1 REST API with Firebase Firestore",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "check": "node check-setup.js",
+    "vercel-build": "echo 'Building for Vercel...'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "f1",
+    "formula1",
+    "api",
+    "rest",
+    "firebase",
+    "firestore"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.6.0",
+    "joi": "^18.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
