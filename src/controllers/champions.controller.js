@@ -1,4 +1,5 @@
 const ChampionModel = require('../models/champion.model');
+const ChampionByAgeModel = require('../models/championByAge.model');
 const { getFirestore, admin } = require('../config/firebase.config');
 
 class ChampionsController {
@@ -32,6 +33,20 @@ class ChampionsController {
   async getAllChampions(req, res, next) {
     try {
       const champions = await ChampionModel.getAll();
+      res.status(200).json({
+        success: true,
+        count: champions.length,
+        data: champions
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Obtener campeones por edad
+  async getChampionsByAge(req, res, next) {
+    try {
+      const champions = await ChampionByAgeModel.getAll();
       res.status(200).json({
         success: true,
         count: champions.length,
