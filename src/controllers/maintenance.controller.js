@@ -1,5 +1,7 @@
 const ChampionModel = require('../models/champion.model');
+const ChampionByAgeModel = require('../models/championByAge.model');
 const { validateChampion } = require('../validators/champion.validator');
+const { validateChampionByAge } = require('../validators/championByAge.validator');
 const paths = require('../config/paths.config');
 const fs = require('fs');
 
@@ -94,6 +96,57 @@ class MaintenanceController {
         success: true,
         message: 'Campeón creado exitosamente',
         data: champion
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Cargar campeones por edad desde JSON
+  async cargarCampeonesPorEdad(req, res, next) {
+    try {
+      // Leer el archivo JSON
+      const jsonData = fs.readFileSync(paths.championsByAge.jsonFile, 'utf8');
+      const championsData = JSON.parse(jsonData);
+
+      // Validar cada campeón
+      const errors = [];
+      championsData.forEach((champion, index) => {
+        const { error } = validateChampionByAge(champion);
+        if (error) {
+          errors.push({
+            index: index,
+            nombre: champion.nombre,
+            errors: error.details.map(detail => detail.message)
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // SIEMPRE limpiar la colección antes de cargar
+      console.log('🗑️  Eliminando todos los registros existentes de champions_by_age...');
+      const deleteResult = await ChampionByAgeModel.deleteAll();
+      console.log(`✅ ${deleteResult.deleted} registros eliminados`);
+
+      // Insertar todos los campeones por edad
+      console.log('📝 Cargando nuevos campeones por edad...');
+      const results = await ChampionByAgeModel.createMany(championsData);
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} campeones por edad cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          champions: results
+        }
       });
     } catch (error) {
       next(error);

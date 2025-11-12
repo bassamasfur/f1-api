@@ -16,4 +16,11 @@ router.post('/cargar-campeones', maintenanceController.cargarCampeones);
  */
 router.post('/cargar-campeon', maintenanceController.cargarCampeon);
 
+/**
+ * @route   POST /api/maintenance/cargar-campeones-por-edad
+ * @desc    Cargar archivo JSON de campeones por edad a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-campeones-por-edad', maintenanceController.cargarCampeonesPorEdad);
+
 module.exports = router;
