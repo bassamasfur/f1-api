@@ -1,66 +1,120 @@
 [
   {
-    "año": 2010,
-    "campeon": "Sebastian Vettel",
-    "escuderia_campeon": "Red Bull",
-    "subcampeon": "Fernando Alonso",
-    "escuderia_subcampeon": "Ferrari",
-    "tercer_lugar": "Mark Webber",
-    "escuderia_tercer_lugar": "Red Bull"
+    "año": 1950,
+    "campeon": "Giuseppe Farina",
+    "escuderia_campeon": "Alfa Romeo",
+    "subcampeon": "Juan Manuel Fangio",
+    "escuderia_subcampeon": "Alfa Romeo",
+    "tercer_lugar": "Luigi Fagioli",
+    "escuderia_tercer_lugar": "Alfa Romeo"
   },
   {
-    "año": 2008,
-    "campeon": "Lewis Hamilton",
-    "escuderia_campeon": "McLaren",
-    "subcampeon": "Felipe Massa",
+    "año": 1951,
+    "campeon": "Juan Manuel Fangio",
+    "escuderia_campeon": "Alfa Romeo",
+    "subcampeon": "Alberto Ascari",
     "escuderia_subcampeon": "Ferrari",
-    "tercer_lugar": "Kimi Räikkönen",
+    "tercer_lugar": "José Froilán González",
     "escuderia_tercer_lugar": "Ferrari"
   },
   {
-    "año": 2005,
-    "campeon": "Fernando Alonso",
-    "escuderia_campeon": "Renault",
-    "subcampeon": "Kimi Räikkönen",
-    "escuderia_subcampeon": "McLaren",
-    "tercer_lugar": "Kimi Räikkönen",
-    "escuderia_tercer_lugar": "McLaren"
-  },
-  {
-    "año": 1972,
-    "campeon": "Emerson Fittipaldi",
-    "escuderia_campeon": "Lotus",
-    "subcampeon": "Jackie Stewart",
-    "escuderia_subcampeon": "Tyrrell",
-    "tercer_lugar": "Jackie Stewart",
-    "escuderia_tercer_lugar": "Tyrrell"
-  },
-  {
-    "año": 1994,
-    "campeon": "Michael Schumacher",
-    "escuderia_campeon": "Benetton",
-    "subcampeon": "Damon Hill",
-    "escuderia_subcampeon": "Williams",
-    "tercer_lugar": "Damon Hill",
-    "escuderia_tercer_lugar": "Williams"
-  },
-  {
-    "año": 1975,
-    "campeon": "Niki Lauda",
+    "año": 1952,
+    "campeon": "Alberto Ascari",
     "escuderia_campeon": "Ferrari",
-    "subcampeon": "Emerson Fittipaldi",
-    "escuderia_subcampeon": "McLaren",
-    "tercer_lugar": "Carlos Reutemann",
-    "escuderia_tercer_lugar": "Brabham"
+    "subcampeon": "Giuseppe Farina",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Piero Taruffi",
+    "escuderia_tercer_lugar": "Ferrari"
   },
   {
-    "año": 1997,
-    "campeon": "Jacques Villeneuve",
-    "escuderia_campeon": "Williams",
-    "subcampeon": "Heinz-Harald Frentzen",
-    "escuderia_subcampeon": "Williams",
-    "tercer_lugar": "David Coulthard",
-    "escuderia_tercer_lugar": "McLaren"
+    "año": 1953,
+    "campeon": "Alberto Ascari",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Juan Manuel Fangio",
+    "escuderia_subcampeon": "Maserati",
+    "tercer_lugar": "Giuseppe Farina",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1954,
+    "campeon": "Juan Manuel Fangio",
+    "escuderia_campeon": "Maserati \\/ Mercedes",
+    "subcampeon": "José Froilán González",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Mike Hawthorn",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1955,
+    "campeon": "Juan Manuel Fangio",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Stirling Moss",
+    "escuderia_subcampeon": "Mercedes",
+    "tercer_lugar": "Eugenio Castellotti",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1956,
+    "campeon": "Juan Manuel Fangio",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Stirling Moss",
+    "escuderia_subcampeon": "Maserati",
+    "tercer_lugar": "Peter Collins",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1957,
+    "campeon": "Juan Manuel Fangio",
+    "escuderia_campeon": "Maserati",
+    "subcampeon": "Stirling Moss",
+    "escuderia_subcampeon": "Maserati \\/ Vanwall",
+    "tercer_lugar": "Luigi Musso",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1958,
+    "campeon": "Mike Hawthorn",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Stirling Moss",
+    "escuderia_subcampeon": "Vanwall",
+    "tercer_lugar": "Tony Brooks",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1959,
+    "campeon": "Jack Brabham",
+    "escuderia_campeon": "Cooper",
+    "subcampeon": "Tony Brooks",
+    "escuderia_subcampeon": "Vanwall",
+    "tercer_lugar": "Stirling Moss",
+    "escuderia_tercer_lugar": "BRM"
+  },
+  {
+    "año": 1960,
+    "campeon": "Jack Brabham",
+    "escuderia_campeon": "Cooper",
+    "subcampeon": "Bruce McLaren",
+    "escuderia_subcampeon": "Cooper",
+    "tercer_lugar": "Stirling Moss",
+    "escuderia_tercer_lugar": "Rob Walker Racing"
+  },
+  {
+    "año": 1961,
+    "campeon": "Phil Hill",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Wolfgang von Trips",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Stirling Moss",
+    "escuderia_tercer_lugar": "Rob Walker Racing"
+  },
+  {
+    "año": 1962,
+    "campeon": "Graham Hill",
+    "escuderia_campeon": "BRM",
+    "subcampeon": "Jim Clark",
+    "escuderia_subcampeon": "Lotus",
+    "tercer_lugar": "Bruce McLaren",
+    "escuderia_tercer_lugar": "Cooper"
   },
   {
     "año": 1963,
@@ -72,13 +126,139 @@
     "escuderia_tercer_lugar": "BRM"
   },
   {
-    "año": 2007,
-    "campeon": "Kimi Räikkönen",
+    "año": 1964,
+    "campeon": "John Surtees",
     "escuderia_campeon": "Ferrari",
-    "subcampeon": "Lewis Hamilton",
-    "escuderia_subcampeon": "McLaren",
-    "tercer_lugar": "Fernando Alonso",
+    "subcampeon": "Graham Hill",
+    "escuderia_subcampeon": "BRM",
+    "tercer_lugar": "Jim Clark",
+    "escuderia_tercer_lugar": "Lotus"
+  },
+  {
+    "año": 1965,
+    "campeon": "Jim Clark",
+    "escuderia_campeon": "Lotus",
+    "subcampeon": "Graham Hill",
+    "escuderia_subcampeon": "BRM",
+    "tercer_lugar": "Jackie Stewart",
+    "escuderia_tercer_lugar": "BRM"
+  },
+  {
+    "año": 1966,
+    "campeon": "Jack Brabham",
+    "escuderia_campeon": "Brabham",
+    "subcampeon": "John Surtees",
+    "escuderia_subcampeon": "Ferrari \\/ Cooper",
+    "tercer_lugar": "Jochen Rindt",
+    "escuderia_tercer_lugar": "Cooper"
+  },
+  {
+    "año": 1967,
+    "campeon": "Denny Hulme",
+    "escuderia_campeon": "Brabham",
+    "subcampeon": "Jack Brabham",
+    "escuderia_subcampeon": "Brabham",
+    "tercer_lugar": "Jim Clark",
+    "escuderia_tercer_lugar": "Lotus"
+  },
+  {
+    "año": 1968,
+    "campeon": "Graham Hill",
+    "escuderia_campeon": "Lotus",
+    "subcampeon": "Jackie Stewart",
+    "escuderia_subcampeon": "Matra",
+    "tercer_lugar": "Denny Hulme",
     "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1969,
+    "campeon": "Jackie Stewart",
+    "escuderia_campeon": "Matra",
+    "subcampeon": "Jacky Ickx",
+    "escuderia_subcampeon": "Brabham",
+    "tercer_lugar": "Bruce McLaren",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1970,
+    "campeon": "Jochen Rindt",
+    "escuderia_campeon": "Lotus",
+    "subcampeon": "Jacky Ickx",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Clay Regazzoni",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1971,
+    "campeon": "Jackie Stewart",
+    "escuderia_campeon": "Tyrrell",
+    "subcampeon": "Ronnie Peterson",
+    "escuderia_subcampeon": "March",
+    "tercer_lugar": "François Cevert",
+    "escuderia_tercer_lugar": "Tyrrell"
+  },
+  {
+    "año": 1972,
+    "campeon": "Emerson Fittipaldi",
+    "escuderia_campeon": "Lotus",
+    "subcampeon": "Jackie Stewart",
+    "escuderia_subcampeon": "Tyrrell",
+    "tercer_lugar": "Denny Hulme",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1973,
+    "campeon": "Jackie Stewart",
+    "escuderia_campeon": "Tyrrell",
+    "subcampeon": "Emerson Fittipaldi",
+    "escuderia_subcampeon": "Lotus",
+    "tercer_lugar": "Ronnie Peterson",
+    "escuderia_tercer_lugar": "Lotus"
+  },
+  {
+    "año": 1974,
+    "campeon": "Emerson Fittipaldi",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Clay Regazzoni",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Jody Scheckter",
+    "escuderia_tercer_lugar": "Tyrrell"
+  },
+  {
+    "año": 1975,
+    "campeon": "Niki Lauda",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Emerson Fittipaldi",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Carlos Reutemann",
+    "escuderia_tercer_lugar": "Brabham"
+  },
+  {
+    "año": 1976,
+    "campeon": "James Hunt",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Niki Lauda",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Jody Scheckter",
+    "escuderia_tercer_lugar": "Tyrrell"
+  },
+  {
+    "año": 1977,
+    "campeon": "Niki Lauda",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Jody Scheckter",
+    "escuderia_subcampeon": "Wolf",
+    "tercer_lugar": "Mario Andretti",
+    "escuderia_tercer_lugar": "Lotus"
+  },
+  {
+    "año": 1978,
+    "campeon": "Mario Andretti",
+    "escuderia_campeon": "Lotus",
+    "subcampeon": "Ronnie Peterson",
+    "escuderia_subcampeon": "Lotus",
+    "tercer_lugar": "Carlos Reutemann",
+    "escuderia_tercer_lugar": "Ferrari"
   },
   {
     "año": 1979,
@@ -88,5 +268,410 @@
     "escuderia_subcampeon": "Ferrari",
     "tercer_lugar": "Alan Jones",
     "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1980,
+    "campeon": "Alan Jones",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Nelson Piquet",
+    "escuderia_subcampeon": "Brabham",
+    "tercer_lugar": "Carlos Reutemann",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1981,
+    "campeon": "Nelson Piquet",
+    "escuderia_campeon": "Brabham",
+    "subcampeon": "Carlos Reutemann",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Alan Jones",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1982,
+    "campeon": "Keke Rosberg",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Didier Pironi",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "John Watson",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1983,
+    "campeon": "Nelson Piquet",
+    "escuderia_campeon": "Brabham",
+    "subcampeon": "Alain Prost",
+    "escuderia_subcampeon": "Renault",
+    "tercer_lugar": "René Arnoux",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1984,
+    "campeon": "Niki Lauda",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Alain Prost",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Elio de Angelis",
+    "escuderia_tercer_lugar": "Lotus"
+  },
+  {
+    "año": 1985,
+    "campeon": "Alain Prost",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Michele Alboreto",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Keke Rosberg",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1986,
+    "campeon": "Alain Prost",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Nigel Mansell",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Nelson Piquet",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1987,
+    "campeon": "Nelson Piquet",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Nigel Mansell",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Ayrton Senna",
+    "escuderia_tercer_lugar": "Lotus"
+  },
+  {
+    "año": 1988,
+    "campeon": "Ayrton Senna",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Alain Prost",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Gerhard Berger",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1989,
+    "campeon": "Alain Prost",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Ayrton Senna",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Riccardo Patrese",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1990,
+    "campeon": "Ayrton Senna",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Alain Prost",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Nelson Piquet",
+    "escuderia_tercer_lugar": "Benetton"
+  },
+  {
+    "año": 1991,
+    "campeon": "Ayrton Senna",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Nigel Mansell",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Riccardo Patrese",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1992,
+    "campeon": "Nigel Mansell",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Riccardo Patrese",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Michael Schumacher",
+    "escuderia_tercer_lugar": "Benetton"
+  },
+  {
+    "año": 1993,
+    "campeon": "Alain Prost",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Ayrton Senna",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Damon Hill",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1994,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Benetton",
+    "subcampeon": "Damon Hill",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Gerhard Berger",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1995,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Benetton",
+    "subcampeon": "Damon Hill",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "David Coulthard",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1996,
+    "campeon": "Damon Hill",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Jacques Villeneuve",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Michael Schumacher",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 1997,
+    "campeon": "Jacques Villeneuve",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Heinz-Harald Frentzen",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "David Coulthard",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1998,
+    "campeon": "Mika Häkkinen",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Michael Schumacher",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "David Coulthard",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1999,
+    "campeon": "Mika Häkkinen",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Eddie Irvine",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Heinz-Harald Frentzen",
+    "escuderia_tercer_lugar": "Jordan"
+  },
+  {
+    "año": 2000,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Mika Häkkinen",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "David Coulthard",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 2001,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "David Coulthard",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Rubens Barrichello",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2002,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Rubens Barrichello",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Juan Pablo Montoya",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 2003,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Kimi Räikkönen",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Juan Pablo Montoya",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 2004,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Rubens Barrichello",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Jenson Button",
+    "escuderia_tercer_lugar": "BAR"
+  },
+  {
+    "año": 2005,
+    "campeon": "Fernando Alonso",
+    "escuderia_campeon": "Renault",
+    "subcampeon": "Kimi Räikkönen",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Michael Schumacher",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2006,
+    "campeon": "Fernando Alonso",
+    "escuderia_campeon": "Renault",
+    "subcampeon": "Michael Schumacher",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Felipe Massa",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2007,
+    "campeon": "Kimi Räikkönen",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Lewis Hamilton",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Fernando Alonso",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 2008,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Felipe Massa",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Kimi Räikkönen",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2009,
+    "campeon": "Jenson Button",
+    "escuderia_campeon": "Brawn GP",
+    "subcampeon": "Sebastian Vettel",
+    "escuderia_subcampeon": "Red Bull",
+    "tercer_lugar": "Rubens Barrichello",
+    "escuderia_tercer_lugar": "Brawn GP"
+  },
+  {
+    "año": 2010,
+    "campeon": "Sebastian Vettel",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Fernando Alonso",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Mark Webber",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2011,
+    "campeon": "Sebastian Vettel",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Jenson Button",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Mark Webber",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2012,
+    "campeon": "Sebastian Vettel",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Fernando Alonso",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Kimi Räikkönen",
+    "escuderia_tercer_lugar": "Lotus"
+  },
+  {
+    "año": 2013,
+    "campeon": "Sebastian Vettel",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Fernando Alonso",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Mark Webber",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2014,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Nico Rosberg",
+    "escuderia_subcampeon": "Mercedes",
+    "tercer_lugar": "Daniel Ricciardo",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2015,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Nico Rosberg",
+    "escuderia_subcampeon": "Mercedes",
+    "tercer_lugar": "Sebastian Vettel",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2016,
+    "campeon": "Nico Rosberg",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Lewis Hamilton",
+    "escuderia_subcampeon": "Mercedes",
+    "tercer_lugar": "Daniel Ricciardo",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2017,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Sebastian Vettel",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Valtteri Bottas",
+    "escuderia_tercer_lugar": "Mercedes"
+  },
+  {
+    "año": 2018,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Sebastian Vettel",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Kimi Räikkönen",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2019,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Valtteri Bottas",
+    "escuderia_subcampeon": "Mercedes",
+    "tercer_lugar": "Max Verstappen",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2020,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "Mercedes",
+    "subcampeon": "Valtteri Bottas",
+    "escuderia_subcampeon": "Mercedes",
+    "tercer_lugar": "Max Verstappen",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2021,
+    "campeon": "Max Verstappen",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Lewis Hamilton",
+    "escuderia_subcampeon": "Mercedes",
+    "tercer_lugar": "Valtteri Bottas",
+    "escuderia_tercer_lugar": "Mercedes"
+  },
+  {
+    "año": 2022,
+    "campeon": "Max Verstappen",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Charles Leclerc",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Sergio Pérez",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2023,
+    "campeon": "Max Verstappen",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Sergio Pérez",
+    "escuderia_subcampeon": "Red Bull",
+    "tercer_lugar": "Lewis Hamilton",
+    "escuderia_tercer_lugar": "Mercedes"
+  },
+  {
+    "año": 2024,
+    "campeon": "Max Verstappen",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Lando Norris",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Charles Leclerc",
+    "escuderia_tercer_lugar": "Ferrari"
   }
 ]
