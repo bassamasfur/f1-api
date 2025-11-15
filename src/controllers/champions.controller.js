@@ -1,5 +1,6 @@
 const ChampionModel = require('../models/champion.model');
 const ChampionByAgeModel = require('../models/championByAge.model');
+const HistoricalPodiumModel = require('../models/historicalPodium.model');
 const { getFirestore, admin } = require('../config/firebase.config');
 
 class ChampionsController {
@@ -51,6 +52,20 @@ class ChampionsController {
         success: true,
         count: champions.length,
         data: champions
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Obtener podio histórico
+  async getHistoricalPodium(req, res, next) {
+    try {
+      const podiums = await HistoricalPodiumModel.getAll();
+      res.status(200).json({
+        success: true,
+        count: podiums.length,
+        data: podiums
       });
     } catch (error) {
       next(error);

@@ -17,6 +17,13 @@ router.get('/verificar-conexion', championsController.verificarConexion);
 router.get('/por-edad', championsController.getChampionsByAge);
 
 /**
+ * @route   GET /api/champions/podio-historico
+ * @desc    Get historical podium (1950-2024)
+ * @access  Public
+ */
+router.get('/podio-historico', championsController.getHistoricalPodium);
+
+/**
  * @route   GET /api/champions
  * @desc    Get all champions
  * @access  Public
