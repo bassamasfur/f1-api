@@ -1,7 +1,9 @@
 const ChampionModel = require('../models/champion.model');
 const ChampionByAgeModel = require('../models/championByAge.model');
+const HistoricalPodiumModel = require('../models/historicalPodium.model');
 const { validateChampion } = require('../validators/champion.validator');
 const { validateChampionByAge } = require('../validators/championByAge.validator');
+const { validateHistoricalPodium } = require('../validators/historicalPodium.validator');
 const paths = require('../config/paths.config');
 const fs = require('fs');
 
@@ -146,6 +148,57 @@ class MaintenanceController {
           deleted: deleteResult.deleted,
           loaded: results.length,
           champions: results
+        }
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Cargar podio histórico desde JSON
+  async cargarPodioHistorico(req, res, next) {
+    try {
+      // Leer el archivo JSON
+      const jsonData = fs.readFileSync(paths.historicalPodium.jsonFile, 'utf8');
+      const podiumsData = JSON.parse(jsonData);
+
+      // Validar cada podio
+      const errors = [];
+      podiumsData.forEach((podium, index) => {
+        const { error } = validateHistoricalPodium(podium);
+        if (error) {
+          errors.push({
+            index: index,
+            año: podium.año,
+            errors: error.details.map(detail => detail.message)
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // SIEMPRE limpiar la colección antes de cargar
+      console.log('🗑️  Eliminando todos los registros existentes de historical_podium...');
+      const deleteResult = await HistoricalPodiumModel.deleteAll();
+      console.log(`✅ ${deleteResult.deleted} registros eliminados`);
+
+      // Insertar todos los podios históricos
+      console.log('📝 Cargando podio histórico...');
+      const results = await HistoricalPodiumModel.createMany(podiumsData);
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} podios históricos cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          podiums: results
         }
       });
     } catch (error) {

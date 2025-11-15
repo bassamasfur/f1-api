@@ -1,0 +1,92 @@
+[
+  {
+    "año": 2010,
+    "campeon": "Sebastian Vettel",
+    "escuderia_campeon": "Red Bull",
+    "subcampeon": "Fernando Alonso",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Mark Webber",
+    "escuderia_tercer_lugar": "Red Bull"
+  },
+  {
+    "año": 2008,
+    "campeon": "Lewis Hamilton",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Felipe Massa",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Kimi Räikkönen",
+    "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2005,
+    "campeon": "Fernando Alonso",
+    "escuderia_campeon": "Renault",
+    "subcampeon": "Kimi Räikkönen",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Kimi Räikkönen",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1972,
+    "campeon": "Emerson Fittipaldi",
+    "escuderia_campeon": "Lotus",
+    "subcampeon": "Jackie Stewart",
+    "escuderia_subcampeon": "Tyrrell",
+    "tercer_lugar": "Jackie Stewart",
+    "escuderia_tercer_lugar": "Tyrrell"
+  },
+  {
+    "año": 1994,
+    "campeon": "Michael Schumacher",
+    "escuderia_campeon": "Benetton",
+    "subcampeon": "Damon Hill",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "Damon Hill",
+    "escuderia_tercer_lugar": "Williams"
+  },
+  {
+    "año": 1975,
+    "campeon": "Niki Lauda",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Emerson Fittipaldi",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Carlos Reutemann",
+    "escuderia_tercer_lugar": "Brabham"
+  },
+  {
+    "año": 1997,
+    "campeon": "Jacques Villeneuve",
+    "escuderia_campeon": "Williams",
+    "subcampeon": "Heinz-Harald Frentzen",
+    "escuderia_subcampeon": "Williams",
+    "tercer_lugar": "David Coulthard",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1963,
+    "campeon": "Jim Clark",
+    "escuderia_campeon": "Lotus",
+    "subcampeon": "Graham Hill",
+    "escuderia_subcampeon": "BRM",
+    "tercer_lugar": "Richie Ginther",
+    "escuderia_tercer_lugar": "BRM"
+  },
+  {
+    "año": 2007,
+    "campeon": "Kimi Räikkönen",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Lewis Hamilton",
+    "escuderia_subcampeon": "McLaren",
+    "tercer_lugar": "Fernando Alonso",
+    "escuderia_tercer_lugar": "McLaren"
+  },
+  {
+    "año": 1979,
+    "campeon": "Jody Scheckter",
+    "escuderia_campeon": "Ferrari",
+    "subcampeon": "Gilles Villeneuve",
+    "escuderia_subcampeon": "Ferrari",
+    "tercer_lugar": "Alan Jones",
+    "escuderia_tercer_lugar": "Williams"
+  }
+]

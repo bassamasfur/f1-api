@@ -11,6 +11,9 @@ module.exports = {
   championsByAge: {
     jsonFile: path.join(__dirname, '../../recursos/campeones_por_edad.json')
   },
+  historicalPodium: {
+    jsonFile: path.join(__dirname, '../../recursos/podio_historico_f1.json')
+  },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),
