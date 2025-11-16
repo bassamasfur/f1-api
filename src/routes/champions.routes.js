@@ -24,6 +24,13 @@ router.get('/por-edad', championsController.getChampionsByAge);
 router.get('/podio-historico', championsController.getHistoricalPodium);
 
 /**
+ * @route   GET /api/champions/temporadas-antes
+ * @desc    Get champions seasons before winning championship
+ * @access  Public
+ */
+router.get('/temporadas-antes', championsController.getChampionSeasonsBefore);
+
+/**
  * @route   GET /api/champions
  * @desc    Get all champions
  * @access  Public

@@ -1,6 +1,7 @@
 const ChampionModel = require('../models/champion.model');
 const ChampionByAgeModel = require('../models/championByAge.model');
 const HistoricalPodiumModel = require('../models/historicalPodium.model');
+const ChampionSeasonsBeforeModel = require('../models/championSeasonsBefore.model');
 const { getFirestore, admin } = require('../config/firebase.config');
 
 class ChampionsController {
@@ -66,6 +67,20 @@ class ChampionsController {
         success: true,
         count: podiums.length,
         data: podiums
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Obtener temporadas antes de ser campeón
+  async getChampionSeasonsBefore(req, res, next) {
+    try {
+      const seasons = await ChampionSeasonsBeforeModel.getAll();
+      res.status(200).json({
+        success: true,
+        count: seasons.length,
+        data: seasons
       });
     } catch (error) {
       next(error);
