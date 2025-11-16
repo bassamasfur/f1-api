@@ -30,4 +30,11 @@ router.post('/cargar-campeones-por-edad', maintenanceController.cargarCampeonesP
  */
 router.post('/cargar-podio-historico', maintenanceController.cargarPodioHistorico);
 
+/**
+ * @route   POST /api/maintenance/cargar-temporadas-antes
+ * @desc    Cargar archivo JSON de temporadas antes de ser campeón a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-temporadas-antes', maintenanceController.cargarTemporadasAntes);
+
 module.exports = router;

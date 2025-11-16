@@ -1,9 +1,11 @@
 const ChampionModel = require('../models/champion.model');
 const ChampionByAgeModel = require('../models/championByAge.model');
 const HistoricalPodiumModel = require('../models/historicalPodium.model');
+const ChampionSeasonsBeforeModel = require('../models/championSeasonsBefore.model');
 const { validateChampion } = require('../validators/champion.validator');
 const { validateChampionByAge } = require('../validators/championByAge.validator');
 const { validateHistoricalPodium } = require('../validators/historicalPodium.validator');
+const { validateChampionSeasonsBefore } = require('../validators/championSeasonsBefore.validator');
 const paths = require('../config/paths.config');
 const fs = require('fs');
 
@@ -199,6 +201,57 @@ class MaintenanceController {
           deleted: deleteResult.deleted,
           loaded: results.length,
           podiums: results
+        }
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  // Cargar temporadas antes de ser campeón desde JSON
+  async cargarTemporadasAntes(req, res, next) {
+    try {
+      // Leer el archivo JSON
+      const jsonData = fs.readFileSync(paths.championSeasonsBefore.jsonFile, 'utf8');
+      const seasonsData = JSON.parse(jsonData);
+
+      // Validar cada registro
+      const errors = [];
+      seasonsData.forEach((record, index) => {
+        const { error } = validateChampionSeasonsBefore(record);
+        if (error) {
+          errors.push({
+            index: index,
+            piloto: record.piloto,
+            errors: error.details.map(detail => detail.message)
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // SIEMPRE limpiar la colección antes de cargar
+      console.log('🗑️  Eliminando todos los registros existentes de champions_seasons_before...');
+      const deleteResult = await ChampionSeasonsBeforeModel.deleteAll();
+      console.log(`✅ ${deleteResult.deleted} registros eliminados`);
+
+      // Insertar todos los registros
+      console.log('📝 Cargando temporadas antes de ser campeón...');
+      const results = await ChampionSeasonsBeforeModel.createMany(seasonsData);
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} registros de temporadas antes cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          seasons: results
         }
       });
     } catch (error) {
