@@ -20,6 +20,9 @@ module.exports = {
   victorias: {
     jsonFile: path.join(__dirname, '../../recursos/pilotos_victorias_f1.json')
   },
+  victoriasConsecutivas: {
+    jsonFile: path.join(__dirname, '../../recursos/consecutive_victorias.json')
+  },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),

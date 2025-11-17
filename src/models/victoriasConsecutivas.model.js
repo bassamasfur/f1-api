@@ -1,16 +1,15 @@
 const { getFirestore } = require('../config/firebase.config');
 
-class VictoriasModel {
+class VictoriasConsecutivasModel {
   constructor() {
-    this.collectionName = 'victorias';
+    this.collectionName = 'victorias_consecutivas';
   }
 
   // Obtener todos los registros
-  async getAll(collectionName = null) {
+  async getAll() {
     try {
       const db = getFirestore();
-      const collection = collectionName || this.collectionName;
-      const snapshot = await db.collection(collection).get();
+      const snapshot = await db.collection(this.collectionName).get();
       const records = [];
       snapshot.forEach(doc => {
         records.push({ id: doc.id, ...doc.data() });
@@ -22,14 +21,13 @@ class VictoriasModel {
   }
 
   // Crear múltiples registros
-  async createMany(recordsArray, collectionName = null) {
+  async createMany(recordsArray) {
     try {
       const db = getFirestore();
       const batch = db.batch();
-      const collection = collectionName || this.collectionName;
       const results = [];
       recordsArray.forEach(record => {
-        const docRef = db.collection(collection).doc();
+        const docRef = db.collection(this.collectionName).doc();
         batch.set(docRef, record);
         results.push({ id: docRef.id, ...record });
       });
@@ -40,22 +38,23 @@ class VictoriasModel {
     }
   }
 
-  // Eliminar todos los registros
-  async deleteAll(collectionName = null) {
+  // Borrar todos los registros
+  async deleteAll() {
     try {
       const db = getFirestore();
-      const collection = collectionName || this.collectionName;
-      const snapshot = await db.collection(collection).get();
+      const snapshot = await db.collection(this.collectionName).get();
       const batch = db.batch();
-      snapshot.docs.forEach(doc => {
+      let deleted = 0;
+      snapshot.forEach(doc => {
         batch.delete(doc.ref);
+        deleted++;
       });
       await batch.commit();
-      return { deleted: snapshot.size };
+      return { deleted };
     } catch (error) {
-      throw new Error(`Error al eliminar registros: ${error.message}`);
+      throw new Error(`Error al borrar registros: ${error.message}`);
     }
   }
 }
 
-module.exports = new VictoriasModel();
+module.exports = new VictoriasConsecutivasModel();

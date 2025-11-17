@@ -45,4 +45,11 @@ router.post('/cargar-temporadas-antes', maintenanceController.cargarTemporadasAn
  */
 router.post('/cargar-victorias', victoriasMaintenanceController.cargarVictorias);
 
+/**
+ * @route   POST /api/maintenance/cargar-victorias-consecutivas
+ * @desc    Cargar archivo JSON de victorias consecutivas a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-victorias-consecutivas', victoriasMaintenanceController.cargarVictoriasConsecutivas);
+
 module.exports = router;
