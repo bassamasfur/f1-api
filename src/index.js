@@ -11,8 +11,12 @@ app.use(express.urlencoded({ extended: true }));
 const championsRoutes = require('./routes/champions.routes');
 const maintenanceRoutes = require('./routes/maintenance.routes');
 
+const victoriasRoutes = require('./routes/victorias.routes');
+
 app.use('/api/champions', championsRoutes);
 app.use('/api/maintenance', maintenanceRoutes);
+
+app.use('/api/victorias', victoriasRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {
