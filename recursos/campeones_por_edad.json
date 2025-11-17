@@ -1,52 +1,342 @@
 [
   {
     "nombre": "Sebastian Vettel",
-    "edad": "23 años, 134 días",
+    "edad": "23 años, 4 meses, 11 días",
     "año": 2010
   },
   {
     "nombre": "Lewis Hamilton",
-    "edad": "23 años, 300 días",
+    "edad": "23 años, 9 meses, 26 días",
     "año": 2008
   },
   {
     "nombre": "Fernando Alonso",
-    "edad": "24 años, 59 días",
+    "edad": "24 años, 1 mes, 27 días",
     "año": 2005
   },
   {
     "nombre": "Max Verstappen",
-    "edad": "24 años, 73 días",
+    "edad": "24 años, 2 meses, 12 días",
     "año": 2021
   },
   {
+    "nombre": "Sebastian Vettel",
+    "edad": "24 años, 3 meses, 6 días",
+    "año": 2011
+  },
+  {
+    "nombre": "Max Verstappen",
+    "edad": "25 años, 0 meses, 9 días",
+    "año": 2022
+  },
+  {
+    "nombre": "Fernando Alonso",
+    "edad": "25 años, 2 meses, 23 días",
+    "año": 2006
+  },
+  {
+    "nombre": "Sebastian Vettel",
+    "edad": "25 años, 4 meses, 22 días",
+    "año": 2012
+  },
+  {
     "nombre": "Emerson Fittipaldi",
-    "edad": "25 años, 303 días",
+    "edad": "25 años, 8 meses, 29 días",
     "año": 1972
   },
   {
     "nombre": "Michael Schumacher",
-    "edad": "25 años, 314 días",
+    "edad": "25 años, 10 meses, 10 días",
     "año": 1994
   },
   {
+    "nombre": "Max Verstappen",
+    "edad": "26 años, 0 meses, 8 días",
+    "año": 2023
+  },
+  {
+    "nombre": "Sebastian Vettel",
+    "edad": "26 años, 3 meses, 24 días",
+    "año": 2013
+  },
+  {
     "nombre": "Niki Lauda",
-    "edad": "26 años, 197 días",
+    "edad": "26 años, 6 meses, 16 días",
     "año": 1975
   },
   {
     "nombre": "Jacques Villeneuve",
-    "edad": "26 años, 207 días",
+    "edad": "26 años, 6 meses, 17 días",
     "año": 1997
   },
   {
+    "nombre": "Michael Schumacher",
+    "edad": "26 años, 9 meses, 19 días",
+    "año": 1995
+  },
+  {
+    "nombre": "Max Verstappen",
+    "edad": "27 años, 1 mes, 24 días",
+    "año": 2024
+  },
+  {
     "nombre": "Jim Clark",
-    "edad": "27 años, 188 días",
+    "edad": "27 años, 6 meses, 4 días",
     "año": 1963
   },
   {
+    "nombre": "Emerson Fittipaldi",
+    "edad": "27 años, 9 meses, 24 días",
+    "año": 1974
+  },
+  {
     "nombre": "Kimi Räikkönen",
-    "edad": "28 años, 4 días",
+    "edad": "28 años, 0 meses, 4 días",
     "año": 2007
+  },
+  {
+    "nombre": "Jochen Rindt",
+    "edad": "28 años, 5 meses, 16 días",
+    "año": 1970
+  },
+  {
+    "nombre": "Ayrton Senna",
+    "edad": "28 años, 7 meses, 9 días",
+    "año": 1988
+  },
+  {
+    "nombre": "Niki Lauda",
+    "edad": "28 años, 7 meses, 10 días",
+    "año": 1977
+  },
+  {
+    "nombre": "James Hunt",
+    "edad": "29 años, 1 mes, 25 días",
+    "año": 1976
+  },
+  {
+    "nombre": "Nelson Piquet",
+    "edad": "29 años, 2 meses, 0 días",
+    "año": 1981
+  },
+  {
+    "nombre": "Jim Clark",
+    "edad": "29 años, 4 meses, 28 días",
+    "año": 1965
+  },
+  {
+    "nombre": "John Surtees",
+    "edad": "30 años, 0 meses, 28 días",
+    "año": 1964
+  },
+  {
+    "nombre": "Jack Brabham",
+    "edad": "30 años, 1 mes, 11 días",
+    "año": 1959
+  },
+  {
+    "nombre": "Graham Hill",
+    "edad": "30 años, 2 meses, 9 días",
+    "año": 1962
+  },
+  {
+    "nombre": "Jody Scheckter",
+    "edad": "30 años, 3 meses, 11 días",
+    "año": 1979
+  },
+  {
+    "nombre": "Denny Hulme",
+    "edad": "30 años, 4 meses, 12 días",
+    "año": 1967
+  },
+  {
+    "nombre": "Jackie Stewart",
+    "edad": "30 años, 5 meses, 21 días",
+    "año": 1969
+  },
+  {
+    "nombre": "Alan Jones",
+    "edad": "34 años, 0 meses, 1 día",
+    "año": 1980
+  },
+  {
+    "nombre": "Nigel Mansell",
+    "edad": "39 años, 2 meses, 23 días",
+    "año": 1992
+  },
+  {
+    "nombre": "Damon Hill",
+    "edad": "36 años, 5 meses, 22 días",
+    "año": 1996
+  },
+  {
+    "nombre": "Keke Rosberg",
+    "edad": "33 años, 5 meses, 21 días",
+    "año": 1982
+  },
+  {
+    "nombre": "Mario Andretti",
+    "edad": "38 años, 7 meses, 25 días",
+    "año": 1978
+  },
+  {
+    "nombre": "Jenson Button",
+    "edad": "30 años, 7 meses, 14 días",
+    "año": 2009
+  },
+  {
+    "nombre": "Nico Rosberg",
+    "edad": "31 años, 5 meses, 10 días",
+    "año": 2016
+  },
+  {
+    "nombre": "Phil Hill",
+    "edad": "34 años, 11 meses, 5 días",
+    "año": 1961
+  },
+  {
+    "nombre": "Mike Hawthorn",
+    "edad": "29 años, 3 meses, 10 días",
+    "año": 1958
+  },
+  {
+    "nombre": "Giuseppe Farina",
+    "edad": "44 años, 7 meses, 0 días",
+    "año": 1950
+  },
+  {
+    "nombre": "Alberto Ascari",
+    "edad": "34 años, 7 meses, 4 días",
+    "año": 1952
+  },
+  {
+    "nombre": "Juan Manuel Fangio",
+    "edad": "40 años, 1 mes, 3 días",
+    "año": 1951
+  },
+  {
+    "nombre": "Juan Manuel Fangio",
+    "edad": "41 años, 1 mes, 18 días",
+    "año": 1954
+  },
+  {
+    "nombre": "Juan Manuel Fangio",
+    "edad": "43 años, 1 mes, 27 días",
+    "año": 1955
+  },
+  {
+    "nombre": "Juan Manuel Fangio",
+    "edad": "45 años, 1 mes, 18 días",
+    "año": 1957
+  },
+  {
+    "nombre": "Juan Manuel Fangio",
+    "edad": "44 años, 1 mes, 17 días",
+    "año": 1956
+  },
+  {
+    "nombre": "Nelson Piquet",
+    "edad": "30 años, 2 meses, 0 días",
+    "año": 1983
+  },
+  {
+    "nombre": "Nelson Piquet",
+    "edad": "34 años, 2 meses, 0 días",
+    "año": 1987
+  },
+  {
+    "nombre": "Ayrton Senna",
+    "edad": "30 años, 7 meses, 9 días",
+    "año": 1990
+  },
+  {
+    "nombre": "Ayrton Senna",
+    "edad": "31 años, 7 meses, 9 días",
+    "año": 1991
+  },
+  {
+    "nombre": "Ayrton Senna",
+    "edad": "32 años, 7 meses, 9 días",
+    "año": 1993
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "27 años, 10 meses, 10 días",
+    "año": 1996
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "28 años, 10 meses, 10 días",
+    "año": 1997
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "29 años, 10 meses, 10 días",
+    "año": 1998
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "30 años, 10 meses, 10 días",
+    "año": 2000
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "31 años, 10 meses, 10 días",
+    "año": 2001
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "32 años, 10 meses, 10 días",
+    "año": 2002
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "33 años, 10 meses, 10 días",
+    "año": 2003
+  },
+  {
+    "nombre": "Michael Schumacher",
+    "edad": "35 años, 10 meses, 10 días",
+    "año": 2004
+  },
+  {
+    "nombre": "Sebastian Vettel",
+    "edad": "27 años, 3 meses, 24 días",
+    "año": 2014
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "edad": "29 años, 9 meses, 26 días",
+    "año": 2014
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "edad": "30 años, 9 meses, 26 días",
+    "año": 2015
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "edad": "31 años, 9 meses, 26 días",
+    "año": 2017
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "edad": "32 años, 9 meses, 26 días",
+    "año": 2018
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "edad": "33 años, 9 meses, 26 días",
+    "año": 2019
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "edad": "35 años, 9 meses, 26 días",
+    "año": 2020
+  },
+  {
+    "nombre": "Lewis Hamilton",
+    "edad": "34 años, 9 meses, 26 días",
+    "año": 2019
   }
 ]
