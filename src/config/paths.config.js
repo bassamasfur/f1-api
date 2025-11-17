@@ -17,6 +17,9 @@ module.exports = {
   championSeasonsBefore: {
     jsonFile: path.join(__dirname, '../../recursos/campeones_temporadas_antes.json')
   },
+  victorias: {
+    jsonFile: path.join(__dirname, '../../recursos/pilotos_victorias_f1.json')
+  },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),

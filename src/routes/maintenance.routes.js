@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const maintenanceController = require('../controllers/maintenance.controller');
+const victoriasMaintenanceController = require('../controllers/victorias.maintenance.controller');
 
 /**
  * @route   POST /api/maintenance/cargar-campeones
@@ -36,5 +37,12 @@ router.post('/cargar-podio-historico', maintenanceController.cargarPodioHistoric
  * @access  Admin
  */
 router.post('/cargar-temporadas-antes', maintenanceController.cargarTemporadasAntes);
+
+/**
+ * @route   POST /api/maintenance/cargar-victorias
+ * @desc    Cargar archivo JSON de pilotos con victorias a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-victorias', victoriasMaintenanceController.cargarVictorias);
 
 module.exports = router;
