@@ -1,0 +1,538 @@
+[
+ {
+  "ID": 1,
+  "Piloto": "VERSTAPPEN Max",
+  "victorias_consecutivas": 10,
+  "inicio": "Miami 2023",
+  "to": "to;",
+  "fin": "Italia 2023"
+ },
+ {
+  "ID": 2,
+  "Piloto": "VETTEL Sebastian",
+  "victorias_consecutivas": 9,
+  "inicio": "Bélgica 2013",
+  "to": "to;",
+  "fin": "Brasil 2013"
+ },
+ {
+  "ID": 3,
+  "Piloto": "VERSTAPPEN Max",
+  "victorias_consecutivas": 9,
+  "inicio": "Japón 2023",
+  "to": "to;",
+  "fin": "Arabia Saudita 2024"
+ },
+ {
+  "ID": 4,
+  "Piloto": "ASCARI Alberto",
+  "victorias_consecutivas": 7,
+  "inicio": "Bélgica 1952",
+  "to": "to;",
+  "fin": "Argentina 1953"
+ },
+ {
+  "ID": 5,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 7,
+  "inicio": "Europa 2004",
+  "to": "to;",
+  "fin": "Hungría 2004"
+ },
+ {
+  "ID": 6,
+  "Piloto": "ROSBERG Nico",
+  "victorias_consecutivas": 7,
+  "inicio": "México 2015",
+  "to": "to;",
+  "fin": "Rusia 2016"
+ },
+ {
+  "ID": 7,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 6,
+  "inicio": "Italia 2000",
+  "to": "to;",
+  "fin": "Malasia 2001"
+ },
+ {
+  "ID": 8,
+  "Piloto": "BRABHAM Jack",
+  "victorias_consecutivas": 5,
+  "inicio": "Países Bajos 1960",
+  "to": "to;",
+  "fin": "Portugal 1960"
+ },
+ {
+  "ID": 9,
+  "Piloto": "CLARK Jim",
+  "victorias_consecutivas": 5,
+  "inicio": "Bélgica 1965",
+  "to": "to;",
+  "fin": "Alemania 1965"
+ },
+ {
+  "ID": 10,
+  "Piloto": "MANSELL Nigel",
+  "victorias_consecutivas": 5,
+  "inicio": "Sudáfrica 1992",
+  "to": "to;",
+  "fin": "San Marino 1992"
+ },
+ {
+  "ID": 11,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 5,
+  "inicio": "Australia 2004",
+  "to": "to;",
+  "fin": "España 2004"
+ },
+ {
+  "ID": 12,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 5,
+  "inicio": "Italia 2014",
+  "to": "to;",
+  "fin": "Estados Unidos 2014"
+ },
+ {
+  "ID": 13,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 5,
+  "inicio": "Eifel 2020",
+  "to": "to;",
+  "fin": "Baréin 2020"
+ },
+ {
+  "ID": 14,
+  "Piloto": "VERSTAPPEN Max",
+  "victorias_consecutivas": 5,
+  "inicio": "Francia 2022",
+  "to": "to;",
+  "fin": "Italia 2022"
+ },
+ {
+  "ID": 15,
+  "Piloto": "CLARK Jim",
+  "victorias_consecutivas": 4,
+  "inicio": "Bélgica 1963",
+  "to": "to;",
+  "fin": "Gran Bretaña 1963"
+ },
+ {
+  "ID": 16,
+  "Piloto": "BRABHAM Jack",
+  "victorias_consecutivas": 4,
+  "inicio": "Francia 1966",
+  "to": "to;",
+  "fin": "Alemania 1966"
+ },
+ {
+  "ID": 17,
+  "Piloto": "RINDT Jochen",
+  "victorias_consecutivas": 4,
+  "inicio": "Países Bajos 1970",
+  "to": "to;",
+  "fin": "Alemania 1970"
+ },
+ {
+  "ID": 18,
+  "Piloto": "SENNA Ayrton",
+  "victorias_consecutivas": 4,
+  "inicio": "Gran Bretaña 1988",
+  "to": "to;",
+  "fin": "Bélgica 1988"
+ },
+ {
+  "ID": 19,
+  "Piloto": "SENNA Ayrton",
+  "victorias_consecutivas": 4,
+  "inicio": "Estados Unidos 1991",
+  "to": "to;",
+  "fin": "Mónaco 1991"
+ },
+ {
+  "ID": 20,
+  "Piloto": "PROST Alain",
+  "victorias_consecutivas": 4,
+  "inicio": "Canadá 1993",
+  "to": "to;",
+  "fin": "Alemania 1993"
+ },
+ {
+  "ID": 21,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 4,
+  "inicio": "Brasil 1994",
+  "to": "to;",
+  "fin": "Mónaco 1994"
+ },
+ {
+  "ID": 22,
+  "Piloto": "HILL Damon",
+  "victorias_consecutivas": 4,
+  "inicio": "Australia 1995",
+  "to": "to;",
+  "fin": "Argentina 1996"
+ },
+ {
+  "ID": 23,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 4,
+  "inicio": "Brasil 2002",
+  "to": "to;",
+  "fin": "Austria 2002"
+ },
+ {
+  "ID": 24,
+  "Piloto": "ALONSO Fernando",
+  "victorias_consecutivas": 4,
+  "inicio": "España 2006",
+  "to": "to;",
+  "fin": "Canadá 2006"
+ },
+ {
+  "ID": 25,
+  "Piloto": "BUTTON Jenson",
+  "victorias_consecutivas": 4,
+  "inicio": "Baréin 2009",
+  "to": "to;",
+  "fin": "Turquía 2009"
+ },
+ {
+  "ID": 26,
+  "Piloto": "VETTEL Sebastian",
+  "victorias_consecutivas": 4,
+  "inicio": "Brasil 2010",
+  "to": "to;",
+  "fin": "Malasia 2011"
+ },
+ {
+  "ID": 27,
+  "Piloto": "VETTEL Sebastian",
+  "victorias_consecutivas": 4,
+  "inicio": "Singapur 2012",
+  "to": "to;",
+  "fin": "India 2012"
+ },
+ {
+  "ID": 28,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 4,
+  "inicio": "Malasia 2014",
+  "to": "to;",
+  "fin": "España 2014"
+ },
+ {
+  "ID": 29,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 4,
+  "inicio": "Austria 2016",
+  "to": "to;",
+  "fin": "Alemania 2016"
+ },
+ {
+  "ID": 30,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 4,
+  "inicio": "Estados Unidos 2016",
+  "to": "to;",
+  "fin": "Abu Dabi 2016"
+ },
+ {
+  "ID": 31,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 4,
+  "inicio": "Italia 2018",
+  "to": "to;",
+  "fin": "Japón 2018"
+ },
+ {
+  "ID": 32,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 4,
+  "inicio": "España 2019",
+  "to": "to;",
+  "fin": "Francia 2019"
+ },
+ {
+  "ID": 33,
+  "Piloto": "FANGIO Juan Manuel",
+  "victorias_consecutivas": 3,
+  "inicio": "Alemania 1954",
+  "to": "to;",
+  "fin": "Italia 1954"
+ },
+ {
+  "ID": 34,
+  "Piloto": "MOSS Stirling",
+  "victorias_consecutivas": 3,
+  "inicio": "Pescara 1957",
+  "to": "to;",
+  "fin": "Argentina 1958"
+ },
+ {
+  "ID": 35,
+  "Piloto": "CLARK Jim",
+  "victorias_consecutivas": 3,
+  "inicio": "Estados Unidos 1967",
+  "to": "to;",
+  "fin": "Sudáfrica 1968"
+ },
+ {
+  "ID": 36,
+  "Piloto": "STEWART Jackie",
+  "victorias_consecutivas": 3,
+  "inicio": "Países Bajos 1969",
+  "to": "to;",
+  "fin": "Gran Bretaña 1969"
+ },
+ {
+  "ID": 37,
+  "Piloto": "STEWART Jackie",
+  "victorias_consecutivas": 3,
+  "inicio": "Francia 1971",
+  "to": "to;",
+  "fin": "Alemania 1971"
+ },
+ {
+  "ID": 38,
+  "Piloto": "LAUDA Niki",
+  "victorias_consecutivas": 3,
+  "inicio": "Mónaco 1975",
+  "to": "to;",
+  "fin": "Suecia 1975"
+ },
+ {
+  "ID": 39,
+  "Piloto": "LAUDA Niki",
+  "victorias_consecutivas": 3,
+  "inicio": "Estados Unidos 1975",
+  "to": "to;",
+  "fin": "Sudáfrica 1976"
+ },
+ {
+  "ID": 40,
+  "Piloto": "JONES Alan",
+  "victorias_consecutivas": 3,
+  "inicio": "Alemania 1979",
+  "to": "to;",
+  "fin": "Países Bajos 1979"
+ },
+ {
+  "ID": 41,
+  "Piloto": "JONES Alan",
+  "victorias_consecutivas": 3,
+  "inicio": "Canadá 1980",
+  "to": "to;",
+  "fin": "EU Oeste 1981"
+ },
+ {
+  "ID": 42,
+  "Piloto": "PROST Alain",
+  "victorias_consecutivas": 3,
+  "inicio": "Europa 1984",
+  "to": "to;",
+  "fin": "Brasil 1985"
+ },
+ {
+  "ID": 43,
+  "Piloto": "SENNA Ayrton",
+  "victorias_consecutivas": 3,
+  "inicio": "San Marino 1989",
+  "to": "to;",
+  "fin": "México 1989"
+ },
+ {
+  "ID": 44,
+  "Piloto": "PROST Alain",
+  "victorias_consecutivas": 3,
+  "inicio": "México 1990",
+  "to": "to;",
+  "fin": "Gran Bretaña 1990"
+ },
+ {
+  "ID": 45,
+  "Piloto": "MANSELL Nigel",
+  "victorias_consecutivas": 3,
+  "inicio": "Francia 1991",
+  "to": "to;",
+  "fin": "Alemania 1991"
+ },
+ {
+  "ID": 46,
+  "Piloto": "MANSELL Nigel",
+  "victorias_consecutivas": 3,
+  "inicio": "Francia 1992",
+  "to": "to;",
+  "fin": "Alemania 1992"
+ },
+ {
+  "ID": 47,
+  "Piloto": "HILL Damon",
+  "victorias_consecutivas": 3,
+  "inicio": "Hungría 1993",
+  "to": "to;",
+  "fin": "Italia 1993"
+ },
+ {
+  "ID": 48,
+  "Piloto": "HILL Damon",
+  "victorias_consecutivas": 3,
+  "inicio": "Bélgica 1994",
+  "to": "to;",
+  "fin": "Portugal 1994"
+ },
+ {
+  "ID": 49,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 3,
+  "inicio": "Europa 1995",
+  "to": "to;",
+  "fin": "Japón 1995"
+ },
+ {
+  "ID": 50,
+  "Piloto": "HAKKINEN Mika",
+  "victorias_consecutivas": 3,
+  "inicio": "Europa 1997",
+  "to": "to;",
+  "fin": "Brasil 1998"
+ },
+ {
+  "ID": 51,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 3,
+  "inicio": "Canadá 1998",
+  "to": "to;",
+  "fin": "Gran Bretaña 1998"
+ },
+ {
+  "ID": 52,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 3,
+  "inicio": "Australia 2000",
+  "to": "to;",
+  "fin": "San Marino 2000"
+ },
+ {
+  "ID": 53,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 3,
+  "inicio": "Gran Bretaña 2002",
+  "to": "to;",
+  "fin": "Alemania 2002"
+ },
+ {
+  "ID": 54,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 3,
+  "inicio": "San Marino 2003",
+  "to": "to;",
+  "fin": "Austria 2003"
+ },
+ {
+  "ID": 55,
+  "Piloto": "ALONSO Fernando",
+  "victorias_consecutivas": 3,
+  "inicio": "Malasia 2005",
+  "to": "to;",
+  "fin": "San Marino 2005"
+ },
+ {
+  "ID": 56,
+  "Piloto": "SCHUMACHER Michael",
+  "victorias_consecutivas": 3,
+  "inicio": "Estados Unidos 2006",
+  "to": "to;",
+  "fin": "Alemania 2006"
+ },
+ {
+  "ID": 57,
+  "Piloto": "VETTEL Sebastian",
+  "victorias_consecutivas": 3,
+  "inicio": "Turquía 2011",
+  "to": "to;",
+  "fin": "Mónaco 2011"
+ },
+ {
+  "ID": 58,
+  "Piloto": "VETTEL Sebastian",
+  "victorias_consecutivas": 3,
+  "inicio": "Bélgica 2011",
+  "to": "to;",
+  "fin": "Singapur 2011"
+ },
+ {
+  "ID": 59,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 3,
+  "inicio": "Japón 2015",
+  "to": "to;",
+  "fin": "Estados Unidos 2015"
+ },
+ {
+  "ID": 60,
+  "Piloto": "ROSBERG Nico",
+  "victorias_consecutivas": 3,
+  "inicio": "Bélgica 2016",
+  "to": "to;",
+  "fin": "Singapur 2016"
+ },
+ {
+  "ID": 61,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 3,
+  "inicio": "Bélgica 2017",
+  "to": "to;",
+  "fin": "Singapur 2017"
+ },
+ {
+  "ID": 62,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 3,
+  "inicio": "Estiria 2020",
+  "to": "to;",
+  "fin": "Gran Bretaña 2020"
+ },
+ {
+  "ID": 63,
+  "Piloto": "VERSTAPPEN Max",
+  "victorias_consecutivas": 3,
+  "inicio": "Francia 2021",
+  "to": "to;",
+  "fin": "Austria 2021"
+ },
+ {
+  "ID": 64,
+  "Piloto": "HAMILTON Lewis",
+  "victorias_consecutivas": 3,
+  "inicio": "São Paulo 2021",
+  "to": "to;",
+  "fin": "Arabia Saudita 2021"
+ },
+ {
+  "ID": 65,
+  "Piloto": "VERSTAPPEN Max",
+  "victorias_consecutivas": 3,
+  "inicio": "Emilia-Romaña 2022",
+  "to": "to;",
+  "fin": "España 2022"
+ },
+ {
+  "ID": 66,
+  "Piloto": "VERSTAPPEN Max",
+  "victorias_consecutivas": 3,
+  "inicio": "Japón 2022",
+  "to": "to;",
+  "fin": "Ciudad de México 2022"
+ },
+ {
+  "ID": 67,
+  "Piloto": "PIASTRI Oscar",
+  "victorias_consecutivas": 3,
+  "inicio": "Baréin 2025",
+  "to": "to;",
+  "fin": "Miami 2025"
+ }
+]
