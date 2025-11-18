@@ -35,6 +35,10 @@ module.exports = {
   gpAntesVictoria: {
     jsonFile: path.join(__dirname, '../../recursos/gp-antes_victoria.json')
   },
+
+    victoriaSinPole: {
+      jsonFile: path.join(__dirname, '../../recursos/victoria-sin-pole.json')
+    },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),

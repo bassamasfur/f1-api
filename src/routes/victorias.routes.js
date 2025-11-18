@@ -36,6 +36,8 @@ module.exports = router;
  * @desc    Obtener todos los pilotos con victoria sin pole
  * @access  Public
  */
+const victoriaSinPoleController = require('../controllers/victoriaSinPole.controller');
+router.get('/victoria-sin-pole', victoriaSinPoleController.getAll);
 /**
  * @route   GET /api/victorias/gp-antes-victoria
  * @desc    Obtener todos los pilotos con GP antes de victoria

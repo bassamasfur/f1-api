@@ -79,6 +79,7 @@ module.exports = router;
  * @desc    Cargar archivo JSON de victoria sin pole a Firebase (SIEMPRE borra todo antes)
  * @access  Admin
  */
+router.post('/cargar-victoria-sin-pole', victoriasMaintenanceController.cargarVictoriaSinPole);
 /**
  * @route   POST /api/maintenance/cargar-gp-antes-victoria
  * @desc    Cargar archivo JSON de GP antes de victoria a Firebase (SIEMPRE borra todo antes)
