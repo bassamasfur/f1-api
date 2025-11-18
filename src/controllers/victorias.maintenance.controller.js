@@ -1,6 +1,7 @@
 const VictoriasModel = require('../models/victorias.model');
 const { validateVictorias } = require('../validators/victorias.validator');
 const { validateVictoriasEnUnAnio } = require('../validators/victoriasEnUnAnio.validator');
+const { validateNumerosAnios } = require('../validators/numerosAnios.validator');
 const paths = require('../config/paths.config');
 const fs = require('fs');
 
@@ -8,6 +9,52 @@ const fs = require('fs');
 const { validateVictoriasConsecutivas } = require('../validators/victoriasConsecutivas.validator');
 
 class VictoriasMaintenanceController {
+  // Cargar archivo JSON de números de años
+  async cargarNumerosAnios(req, res, next) {
+    try {
+      const jsonData = fs.readFileSync(paths.numerosAnios.jsonFile, 'utf8');
+      const numerosAniosData = JSON.parse(jsonData);
+
+      // Validar cada registro
+      const errors = [];
+      numerosAniosData.forEach((record, index) => {
+        const { error } = validateNumerosAnios(record);
+        if (error) {
+          errors.push({
+            index: index,
+            nombre: record.nombre,
+            errors: error.details.map(detail => detail.message)
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // Limpiar la colección antes de cargar
+      const deleteResult = await VictoriasModel.deleteAll('numeros_anios');
+
+      // Insertar todos los registros
+      const results = await VictoriasModel.createMany(numerosAniosData, 'numeros_anios');
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} pilotos con números de años cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          numeros_anios: results
+        }
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Cargar archivo JSON de victorias en un año
   async cargarVictoriasEnUnAnio(req, res, next) {
     try {

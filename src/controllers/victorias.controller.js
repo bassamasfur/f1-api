@@ -2,6 +2,19 @@ const VictoriasModel = require('../models/victorias.model');
 
 
 class VictoriasController {
+  // Obtener todos los pilotos con números de años
+  async getAllNumerosAnios(req, res, next) {
+    try {
+      const numerosAnios = await VictoriasModel.getAll('numeros_anios');
+      res.status(200).json({
+        success: true,
+        count: numerosAnios.length,
+        data: numerosAnios
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Obtener todas las victorias en un año
   async getAllVictoriasEnUnAnio(req, res, next) {
     try {

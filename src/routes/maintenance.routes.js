@@ -59,4 +59,11 @@ router.post('/cargar-victorias-consecutivas', victoriasMaintenanceController.car
  */
 router.post('/cargar-victorias-en-un-anio', victoriasMaintenanceController.cargarVictoriasEnUnAnio);
 
+/**
+ * @route   POST /api/maintenance/cargar-numeros-anios
+ * @desc    Cargar archivo JSON de números de años a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-numeros-anios', victoriasMaintenanceController.cargarNumerosAnios);
+
 module.exports = router;

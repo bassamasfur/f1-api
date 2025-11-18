@@ -26,6 +26,9 @@ module.exports = {
   victoriasEnUnAnio: {
     jsonFile: path.join(__dirname, '../../recursos/victorias_en_un_anio.json')
   },
+  numerosAnios: {
+    jsonFile: path.join(__dirname, '../../recursos/numeros_anios.json')
+  },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),

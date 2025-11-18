@@ -16,4 +16,11 @@ router.get('/', victoriasController.getAllVictorias);
  */
 router.get('/en-un-anio', victoriasController.getAllVictoriasEnUnAnio);
 
+/**
+ * @route   GET /api/victorias/numeros-anios
+ * @desc    Obtener todos los pilotos con números de años
+ * @access  Public
+ */
+router.get('/numeros-anios', victoriasController.getAllNumerosAnios);
+
 module.exports = router;

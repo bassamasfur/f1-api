@@ -15,6 +15,7 @@ datosf1-firebase-adminsdk-*.json
 !recursos/campeones_por_edad.json
 !recursos/podio_historico_f1.json
 !recursos/consecutive_victorias.json
+!recursos/victorias_en_un_anio.json
 !vercel.json
 
 # Logs
