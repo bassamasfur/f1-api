@@ -9,4 +9,11 @@ const victoriasController = require('../controllers/victorias.controller');
  */
 router.get('/', victoriasController.getAllVictorias);
 
+/**
+ * @route   GET /api/victorias-en-un-anio
+ * @desc    Obtener todas las victorias en un año
+ * @access  Public
+ */
+router.get('/en-un-anio', victoriasController.getAllVictoriasEnUnAnio);
+
 module.exports = router;

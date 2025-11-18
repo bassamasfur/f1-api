@@ -52,4 +52,11 @@ router.post('/cargar-victorias', victoriasMaintenanceController.cargarVictorias)
  */
 router.post('/cargar-victorias-consecutivas', victoriasMaintenanceController.cargarVictoriasConsecutivas);
 
+/**
+ * @route   POST /api/maintenance/cargar-victorias-en-un-anio
+ * @desc    Cargar archivo JSON de victorias en un año a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-victorias-en-un-anio', victoriasMaintenanceController.cargarVictoriasEnUnAnio);
+
 module.exports = router;

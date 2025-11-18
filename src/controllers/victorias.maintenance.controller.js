@@ -1,5 +1,6 @@
 const VictoriasModel = require('../models/victorias.model');
 const { validateVictorias } = require('../validators/victorias.validator');
+const { validateVictoriasEnUnAnio } = require('../validators/victoriasEnUnAnio.validator');
 const paths = require('../config/paths.config');
 const fs = require('fs');
 
@@ -7,6 +8,52 @@ const fs = require('fs');
 const { validateVictoriasConsecutivas } = require('../validators/victoriasConsecutivas.validator');
 
 class VictoriasMaintenanceController {
+  // Cargar archivo JSON de victorias en un año
+  async cargarVictoriasEnUnAnio(req, res, next) {
+    try {
+      const jsonData = fs.readFileSync(paths.victoriasEnUnAnio.jsonFile, 'utf8');
+      const victoriasEnUnAnioData = JSON.parse(jsonData);
+
+      // Validar cada registro
+      const errors = [];
+      victoriasEnUnAnioData.forEach((record, index) => {
+        const { error } = validateVictoriasEnUnAnio(record);
+        if (error) {
+          errors.push({
+            index: index,
+            piloto: record.piloto,
+            errors: error.details.map(detail => detail.message)
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // Limpiar la colección antes de cargar
+      const deleteResult = await VictoriasModel.deleteAll('victorias_en_un_anio');
+
+      // Insertar todos los registros
+      const results = await VictoriasModel.createMany(victoriasEnUnAnioData, 'victorias_en_un_anio');
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} pilotos con victorias en un año cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          victorias_en_un_anio: results
+        }
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Cargar archivo JSON completo de pilotos con victorias
   async cargarVictorias(req, res, next) {
     try {
