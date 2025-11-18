@@ -2,6 +2,7 @@ const VictoriasModel = require('../models/victorias.model');
 const { validateVictorias } = require('../validators/victorias.validator');
 const { validateVictoriasEnUnAnio } = require('../validators/victoriasEnUnAnio.validator');
 const { validateNumerosAnios } = require('../validators/numerosAnios.validator');
+const { validateAnneeConsecutive } = require('../validators/anneeConsecutive.validator');
 const paths = require('../config/paths.config');
 const fs = require('fs');
 
@@ -9,6 +10,52 @@ const fs = require('fs');
 const { validateVictoriasConsecutivas } = require('../validators/victoriasConsecutivas.validator');
 
 class VictoriasMaintenanceController {
+  // Cargar archivo JSON de años consecutivos
+  async cargarAnneeConsecutive(req, res, next) {
+    try {
+      const jsonData = fs.readFileSync(paths.anneeConsecutive.jsonFile, 'utf8');
+      const anneeConsecutiveData = JSON.parse(jsonData);
+
+      // Validar cada registro
+      const errors = [];
+      anneeConsecutiveData.forEach((record, index) => {
+        const { error } = validateAnneeConsecutive(record);
+        if (error) {
+          errors.push({
+            index: index,
+            nombre: record.nombre,
+            errors: error.details.map(detail => detail.message)
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // Limpiar la colección antes de cargar
+      const deleteResult = await VictoriasModel.deleteAll('annee_consecutive');
+
+      // Insertar todos los registros
+      const results = await VictoriasModel.createMany(anneeConsecutiveData, 'annee_consecutive');
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} pilotos con años consecutivos cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          annee_consecutive: results
+        }
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Cargar archivo JSON de números de años
   async cargarNumerosAnios(req, res, next) {
     try {

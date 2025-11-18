@@ -23,4 +23,11 @@ router.get('/en-un-anio', victoriasController.getAllVictoriasEnUnAnio);
  */
 router.get('/numeros-anios', victoriasController.getAllNumerosAnios);
 
+/**
+ * @route   GET /api/victorias/annee-consecutive
+ * @desc    Obtener todos los pilotos con años consecutivos
+ * @access  Public
+ */
+router.get('/annee-consecutive', victoriasController.getAllAnneeConsecutive);
+
 module.exports = router;

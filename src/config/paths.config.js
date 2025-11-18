@@ -29,6 +29,9 @@ module.exports = {
   numerosAnios: {
     jsonFile: path.join(__dirname, '../../recursos/numeros_anios.json')
   },
+  anneeConsecutive: {
+    jsonFile: path.join(__dirname, '../../recursos/annee-consecutive.json')
+  },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),

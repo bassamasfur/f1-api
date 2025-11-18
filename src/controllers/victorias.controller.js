@@ -2,6 +2,19 @@ const VictoriasModel = require('../models/victorias.model');
 
 
 class VictoriasController {
+  // Obtener todos los pilotos con años consecutivos
+  async getAllAnneeConsecutive(req, res, next) {
+    try {
+      const anneeConsecutive = await VictoriasModel.getAll('annee_consecutive');
+      res.status(200).json({
+        success: true,
+        count: anneeConsecutive.length,
+        data: anneeConsecutive
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Obtener todos los pilotos con números de años
   async getAllNumerosAnios(req, res, next) {
     try {
