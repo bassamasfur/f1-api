@@ -32,6 +32,11 @@ router.get('/annee-consecutive', victoriasController.getAllAnneeConsecutive);
 
 module.exports = router;
 /**
+ * @route   GET /api/victorias/victoria-sin-pole
+ * @desc    Obtener todos los pilotos con victoria sin pole
+ * @access  Public
+ */
+/**
  * @route   GET /api/victorias/gp-antes-victoria
  * @desc    Obtener todos los pilotos con GP antes de victoria
  * @access  Public

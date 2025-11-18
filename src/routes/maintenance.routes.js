@@ -75,6 +75,11 @@ router.post('/cargar-annee-consecutive', victoriasMaintenanceController.cargarAn
 
 module.exports = router;
 /**
+ * @route   POST /api/maintenance/cargar-victoria-sin-pole
+ * @desc    Cargar archivo JSON de victoria sin pole a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+/**
  * @route   POST /api/maintenance/cargar-gp-antes-victoria
  * @desc    Cargar archivo JSON de GP antes de victoria a Firebase (SIEMPRE borra todo antes)
  * @access  Admin

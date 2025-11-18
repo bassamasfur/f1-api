@@ -10,51 +10,6 @@ const fs = require('fs');
 const { validateVictoriasConsecutivas } = require('../validators/victoriasConsecutivas.validator');
 
 class VictoriasMaintenanceController {
-  // Cargar archivo JSON de victoria sin pole
-  async cargarVictoriaSinPole(req, res, next) {
-    try {
-      const jsonData = fs.readFileSync(paths.victoriaSinPole.jsonFile, 'utf8');
-      const victoriaSinPoleData = JSON.parse(jsonData);
-
-      // Validar cada registro
-      const errors = [];
-      victoriaSinPoleData.forEach((record, index) => {
-        if (typeof record.ID !== 'number' || typeof record.nombre !== 'string' || typeof record.victorias_sin_pole !== 'number') {
-          errors.push({
-            index: index,
-            nombre: record.nombre,
-            errors: ['Estructura inválida']
-          });
-        }
-      });
-
-      if (errors.length > 0) {
-        return res.status(400).json({
-          success: false,
-          message: 'Errores de validación en los datos',
-          errors: errors
-        });
-      }
-
-      // Limpiar la colección antes de cargar
-      const deleteResult = await VictoriasModel.deleteAll('victoria_sin_pole');
-
-      // Insertar todos los registros
-      const results = await VictoriasModel.createMany(victoriaSinPoleData, 'victoria_sin_pole');
-
-      res.status(201).json({
-        success: true,
-        message: `Colección limpiada y ${results.length} pilotos con victoria sin pole cargados exitosamente`,
-        data: {
-          deleted: deleteResult.deleted,
-          loaded: results.length,
-          victoria_sin_pole: results
-        }
-      });
-    } catch (error) {
-      next(error);
-    }
-  }
   // Cargar archivo JSON de GP antes de victoria
   async cargarGpAntesVictoria(req, res, next) {
     try {
