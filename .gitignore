@@ -17,6 +17,7 @@ datosf1-firebase-adminsdk-*.json
 !recursos/consecutive_victorias.json
 !recursos/victorias_en_un_anio.json
 !recursos/numeros_anios.json
+!recursos/annee-consecutive.json
 !vercel.json
 
 # Logs

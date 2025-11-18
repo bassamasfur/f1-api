@@ -2,6 +2,19 @@ const VictoriasModel = require('../models/victorias.model');
 
 
 class VictoriasController {
+  // Obtener todos los pilotos con GP antes de victoria
+  async getAllGpAntesVictoria(req, res, next) {
+    try {
+      const gpAntesVictoria = await VictoriasModel.getAll('gp_antes_victoria');
+      res.status(200).json({
+        success: true,
+        count: gpAntesVictoria.length,
+        data: gpAntesVictoria
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Obtener todos los pilotos con años consecutivos
   async getAllAnneeConsecutive(req, res, next) {
     try {

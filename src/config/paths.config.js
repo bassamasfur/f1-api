@@ -32,6 +32,9 @@ module.exports = {
   anneeConsecutive: {
     jsonFile: path.join(__dirname, '../../recursos/annee-consecutive.json')
   },
+  gpAntesVictoria: {
+    jsonFile: path.join(__dirname, '../../recursos/gp-antes_victoria.json')
+  },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),

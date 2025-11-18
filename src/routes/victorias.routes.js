@@ -31,3 +31,9 @@ router.get('/numeros-anios', victoriasController.getAllNumerosAnios);
 router.get('/annee-consecutive', victoriasController.getAllAnneeConsecutive);
 
 module.exports = router;
+/**
+ * @route   GET /api/victorias/gp-antes-victoria
+ * @desc    Obtener todos los pilotos con GP antes de victoria
+ * @access  Public
+ */
+router.get('/gp-antes-victoria', victoriasController.getAllGpAntesVictoria);

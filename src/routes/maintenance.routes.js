@@ -74,3 +74,9 @@ router.post('/cargar-numeros-anios', victoriasMaintenanceController.cargarNumero
 router.post('/cargar-annee-consecutive', victoriasMaintenanceController.cargarAnneeConsecutive);
 
 module.exports = router;
+/**
+ * @route   POST /api/maintenance/cargar-gp-antes-victoria
+ * @desc    Cargar archivo JSON de GP antes de victoria a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-gp-antes-victoria', victoriasMaintenanceController.cargarGpAntesVictoria);

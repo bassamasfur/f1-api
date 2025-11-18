@@ -10,6 +10,51 @@ const fs = require('fs');
 const { validateVictoriasConsecutivas } = require('../validators/victoriasConsecutivas.validator');
 
 class VictoriasMaintenanceController {
+  // Cargar archivo JSON de GP antes de victoria
+  async cargarGpAntesVictoria(req, res, next) {
+    try {
+      const jsonData = fs.readFileSync(paths.gpAntesVictoria.jsonFile, 'utf8');
+      const gpAntesVictoriaData = JSON.parse(jsonData);
+
+      // Validar cada registro
+      const errors = [];
+      gpAntesVictoriaData.forEach((record, index) => {
+        if (typeof record.ID !== 'number' || typeof record.nombre !== 'string' || typeof record.carreras !== 'number') {
+          errors.push({
+            index: index,
+            nombre: record.nombre,
+            errors: ['Estructura inválida']
+          });
+        }
+      });
+
+      if (errors.length > 0) {
+        return res.status(400).json({
+          success: false,
+          message: 'Errores de validación en los datos',
+          errors: errors
+        });
+      }
+
+      // Limpiar la colección antes de cargar
+      const deleteResult = await VictoriasModel.deleteAll('gp_antes_victoria');
+
+      // Insertar todos los registros
+      const results = await VictoriasModel.createMany(gpAntesVictoriaData, 'gp_antes_victoria');
+
+      res.status(201).json({
+        success: true,
+        message: `Colección limpiada y ${results.length} pilotos con GP antes de victoria cargados exitosamente`,
+        data: {
+          deleted: deleteResult.deleted,
+          loaded: results.length,
+          gp_antes_victoria: results
+        }
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
   // Cargar archivo JSON de años consecutivos
   async cargarAnneeConsecutive(req, res, next) {
     try {
