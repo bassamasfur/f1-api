@@ -1,4 +1,4 @@
-const { getFirestore } = require('firebase-admin/firestore');
+const { getFirestore } = require('../config/firebase.config');
 
 const db = getFirestore();
 const COLLECTION = 'victoria_sin_pole';

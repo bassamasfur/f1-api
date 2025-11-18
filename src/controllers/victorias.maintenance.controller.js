@@ -55,6 +55,52 @@ class VictoriasMaintenanceController {
       next(error);
     }
   }
+
+    // Cargar archivo JSON de victoria sin pole
+    async cargarVictoriaSinPole(req, res, next) {
+      try {
+        const jsonData = fs.readFileSync(paths.victoriaSinPole.jsonFile, 'utf8');
+        const victoriaSinPoleData = JSON.parse(jsonData);
+
+        // Validar cada registro
+        const errors = [];
+        victoriaSinPoleData.forEach((record, index) => {
+          if (typeof record.ID !== 'number' || typeof record.nombre !== 'string' || typeof record.victoria !== 'number' || typeof record.porcentaje !== 'number') {
+            errors.push({
+              index: index,
+              nombre: record.nombre,
+              errors: ['Estructura inválida']
+            });
+          }
+        });
+
+        if (errors.length > 0) {
+          return res.status(400).json({
+            success: false,
+            message: 'Errores de validación en los datos',
+            errors: errors
+          });
+        }
+
+        // Limpiar la colección antes de cargar
+        const VictoriaSinPoleModel = require('../models/victoriaSinPole.model');
+        const deleteResult = await VictoriaSinPoleModel.clearCollection();
+
+        // Insertar todos los registros
+        const results = await VictoriaSinPoleModel.addMany(victoriaSinPoleData);
+
+        res.status(201).json({
+          success: true,
+          message: `Colección limpiada y ${results} registros de victoria sin pole cargados exitosamente`,
+          data: {
+            deleted: deleteResult,
+            loaded: results
+          }
+        });
+      } catch (error) {
+        next(error);
+      }
+    }
   // Cargar archivo JSON de años consecutivos
   async cargarAnneeConsecutive(req, res, next) {
     try {
