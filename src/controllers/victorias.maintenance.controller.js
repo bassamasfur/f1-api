@@ -56,6 +56,52 @@ class VictoriasMaintenanceController {
     }
   }
 
+    // Cargar archivo JSON de victoria vuelta fast
+    async cargarVictoriaVueltaFast(req, res, next) {
+      try {
+        const jsonData = fs.readFileSync(paths.victoriaVueltaFast.jsonFile, 'utf8');
+        const victoriaVueltaFastData = JSON.parse(jsonData);
+
+        // Validar cada registro
+        const errors = [];
+        victoriaVueltaFastData.forEach((record, index) => {
+          if (typeof record.ID !== 'number' || typeof record.nombre !== 'string' || typeof record.victorias !== 'number') {
+            errors.push({
+              index: index,
+              nombre: record.nombre,
+              errors: ['Estructura inválida']
+            });
+          }
+        });
+
+        if (errors.length > 0) {
+          return res.status(400).json({
+            success: false,
+            message: 'Errores de validación en los datos',
+            errors: errors
+          });
+        }
+
+        // Limpiar la colección antes de cargar
+        const VictoriaVueltaFastModel = require('../models/victoriaVueltaFast.model');
+        const deleteResult = await VictoriaVueltaFastModel.clearCollection();
+
+        // Insertar todos los registros
+        const results = await VictoriaVueltaFastModel.addMany(victoriaVueltaFastData);
+
+        res.status(201).json({
+          success: true,
+          message: `Colección limpiada y ${results} registros de victoria vuelta fast cargados exitosamente`,
+          data: {
+            deleted: deleteResult,
+            loaded: results
+          }
+        });
+      } catch (error) {
+        next(error);
+      }
+    }
+
     // Cargar archivo JSON de victoria sin pole
     async cargarVictoriaSinPole(req, res, next) {
       try {

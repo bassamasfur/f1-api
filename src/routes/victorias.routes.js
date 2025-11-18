@@ -44,3 +44,10 @@ router.get('/victoria-sin-pole', victoriaSinPoleController.getAll);
  * @access  Public
  */
 router.get('/gp-antes-victoria', victoriasController.getAllGpAntesVictoria);
+/**
+ * @route   GET /api/victorias/victoria-vuelta-fast
+ * @desc    Obtener todos los pilotos con victoria vuelta fast
+ * @access  Public
+ */
+const victoriaVueltaFastController = require('../controllers/victoriaVueltaFast.controller');
+router.get('/victoria-vuelta-fast', victoriaVueltaFastController.getAll);

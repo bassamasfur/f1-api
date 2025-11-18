@@ -39,6 +39,10 @@ module.exports = {
     victoriaSinPole: {
       jsonFile: path.join(__dirname, '../../recursos/victoria-sin-pole.json')
     },
+
+      victoriaVueltaFast: {
+        jsonFile: path.join(__dirname, '../../recursos/victoria-vuelta-fast.json')
+      },
   
   // Carpetas principales
   recursos: path.join(__dirname, '../../recursos'),

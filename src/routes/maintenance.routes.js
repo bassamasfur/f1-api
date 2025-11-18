@@ -67,6 +67,12 @@ router.post('/cargar-victorias-en-un-anio', victoriasMaintenanceController.carga
 router.post('/cargar-numeros-anios', victoriasMaintenanceController.cargarNumerosAnios);
 
 /**
+ * @route   POST /api/maintenance/cargar-victoria-vuelta-fast
+ * @desc    Cargar archivo JSON de victoria vuelta fast a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-victoria-vuelta-fast', victoriasMaintenanceController.cargarVictoriaVueltaFast);
+/**
  * @route   POST /api/maintenance/cargar-annee-consecutive
  * @desc    Cargar archivo JSON de años consecutivos a Firebase (SIEMPRE borra todo antes)
  * @access  Admin
