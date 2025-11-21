@@ -12,15 +12,15 @@ const championsRoutes = require('./routes/champions.routes');
 const maintenanceRoutes = require('./routes/maintenance.routes');
 
 const victoriasRoutes = require('./routes/victorias.routes');
-
 const victoriasConsecutivasRoutes = require('./routes/victoriasConsecutivas.routes');
+const polesRoutes = require('./routes/poles.routes');
 
 app.use('/api/champions', championsRoutes);
 app.use('/api/maintenance', maintenanceRoutes);
 
 app.use('/api/victorias', victoriasRoutes);
-
 app.use('/api/victorias-consecutivas', victoriasConsecutivasRoutes);
+app.use('/api/poles', polesRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {
