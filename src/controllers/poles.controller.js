@@ -1,5 +1,6 @@
 const PoleNumeroModel = require('../models/poleNumero.model');
 const PolesConsecutiveModel = require('../models/polesConsecutive.model');
+const PolesConsecutiveDebutModel = require('../models/polesConsecutiveDebut.model');
 
 class PolesController {
   async getAllPoleNumero(req, res, next) {
@@ -18,6 +19,19 @@ class PolesController {
   async getAllPolesConsecutive(req, res, next) {
     try {
       const data = await PolesConsecutiveModel.getAll();
+      res.status(200).json({
+        success: true,
+        count: data.length,
+        data
+      });
+    } catch (error) {
+      next(error);
+    }
+  }
+
+  async getAllPolesConsecutiveDebut(req, res, next) {
+    try {
+      const data = await PolesConsecutiveDebutModel.getAll();
       res.status(200).json({
         success: true,
         count: data.length,

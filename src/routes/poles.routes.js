@@ -16,4 +16,11 @@ router.get('/pole-numero', polesController.getAllPoleNumero);
  */
 router.get('/poles-consecutive', polesController.getAllPolesConsecutive);
 
+/**
+ * @route   GET /api/poles/poles-consecutive-debut
+ * @desc    Obtener todos los pilotos con poles consecutivas debut
+ * @access  Public
+ */
+router.get('/poles-consecutive-debut', polesController.getAllPolesConsecutiveDebut);
+
 module.exports = router;

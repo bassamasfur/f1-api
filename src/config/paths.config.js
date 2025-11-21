@@ -8,6 +8,9 @@ module.exports = {
   polesConsecutive: {
     jsonFile: path.join(__dirname, '../../recursos/poles-consecutive.json')
   },
+  polesConsecutiveDebut: {
+    jsonFile: path.join(__dirname, '../../recursos/poles-consecutive-debut.json')
+  },
   poleNumero: {
     jsonFile: path.join(__dirname, '../../recursos/pole-numero.json')
   },

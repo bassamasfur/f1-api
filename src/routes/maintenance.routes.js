@@ -107,4 +107,11 @@ router.post('/cargar-pole-numero', polesMaintenanceController.cargarPoleNumero);
  */
 router.post('/cargar-poles-consecutive', polesMaintenanceController.cargarPolesConsecutive);
 
+/**
+ * @route   POST /api/maintenance/cargar-poles-consecutive-debut
+ * @desc    Cargar archivo JSON de poles-consecutive-debut a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-poles-consecutive-debut', polesMaintenanceController.cargarPolesConsecutiveDebut);
+
 module.exports = router;
