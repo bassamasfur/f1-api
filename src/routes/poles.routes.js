@@ -23,4 +23,11 @@ router.get('/poles-consecutive', polesController.getAllPolesConsecutive);
  */
 router.get('/poles-consecutive-debut', polesController.getAllPolesConsecutiveDebut);
 
+/**
+ * @route   GET /api/poles/poles-en-un-anio
+ * @desc    Obtener todos los pilotos con poles en un año
+ * @access  Public
+ */
+router.get('/poles-en-un-anio', polesController.getAllPolesEnUnAnio);
+
 module.exports = router;
