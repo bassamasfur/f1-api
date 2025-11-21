@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const polesController = require('../controllers/poles.controller');
+router.get('/poles-annee-consecutive', polesController.getAllPolesAnneeConsecutive);
 
 /**
  * @route   GET /api/poles/pole-numero

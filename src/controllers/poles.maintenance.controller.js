@@ -1,6 +1,8 @@
 const fs = require('fs');
 const paths = require('../config/paths.config');
 const poleNumeroSchema = require('../validators/poleNumero.validator');
+const polesAnneeConsecutiveSchema = require('../validators/polesAnneeConsecutive.validator');
+const PolesAnneeConsecutiveModel = require('../models/polesAnneeConsecutive.model');
 const PoleNumeroModel = require('../models/poleNumero.model');
 const polesConsecutiveSchema = require('../validators/polesConsecutive.validator');
 const PolesConsecutiveModel = require('../models/polesConsecutive.model');
@@ -101,6 +103,24 @@ class PolesMaintenanceController {
       // Cargar datos
       const loaded = await PolesConsecutiveModel.addMany(polesConsecutiveData);
       res.json({ success: true, message: `Colección limpiada y ${loaded} registros de poles-consecutive cargados exitosamente`, data: { deleted, loaded } });
+    } catch (err) {
+      res.status(500).json({ success: false, message: 'Error al cargar datos', error: err.message });
+    }
+  }
+
+  // POST /maintenance/cargar-poles-annee-consecutive
+  async cargarPolesAnneeConsecutive(req, res, next) {
+    try {
+      const data = require('../../recursos/poles-annee-consecutive.json');
+      for (const item of data) {
+        const { error } = polesAnneeConsecutiveSchema.validate(item);
+        if (error) {
+          return res.status(400).json({ success: false, message: 'Error de validación', details: error.details });
+        }
+      }
+      await PolesAnneeConsecutiveModel.clearCollection();
+      const loaded = await PolesAnneeConsecutiveModel.addMany(data);
+      res.json({ success: true, message: `Colección limpiada y ${loaded} registros de poles-annee-consecutive cargados exitosamente`, data: { loaded } });
     } catch (err) {
       res.status(500).json({ success: false, message: 'Error al cargar datos', error: err.message });
     }

@@ -54,6 +54,14 @@ class PolesController {
       next(error);
     }
   }
+  async getAllPolesAnneeConsecutive(req, res) {
+    try {
+      const data = await require('../models/polesAnneeConsecutive.model').getAll();
+      res.json(data);
+    } catch (err) {
+      res.status(500).json({ error: err.message });
+    }
+  }
 
   async getAllPolesConsecutiveDebut(req, res, next) {
     try {

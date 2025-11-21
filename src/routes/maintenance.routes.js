@@ -3,6 +3,7 @@ const router = express.Router();
 const maintenanceController = require('../controllers/maintenance.controller');
 const victoriasMaintenanceController = require('../controllers/victorias.maintenance.controller');
 const polesMaintenanceController = require('../controllers/poles.maintenance.controller');
+router.post('/cargar-poles-annee-consecutive', polesMaintenanceController.cargarPolesAnneeConsecutive);
 
 /**
  * @route   POST /api/maintenance/cargar-campeones
