@@ -1,5 +1,3 @@
-const gpPolesAntesSchema = require('../validators/gpPolesAntes.validator');
-const GpPolesAntesModel = require('../models/gpPolesAntes.model');
 const fs = require('fs');
 const paths = require('../config/paths.config');
 const poleNumeroSchema = require('../validators/poleNumero.validator');
@@ -16,23 +14,6 @@ const numAnneeSchema = require('../validators/numAnnee.validator');
 const NumAnneeModel = require('../models/numAnnee.model');
 
 class PolesMaintenanceController {
-  // POST /maintenance/cargar-gp-poles-antes
-  async cargarGpPolesAntes(req, res, next) {
-    try {
-      const data = require('../../recursos/gp-poles-antes.json');
-      for (const item of data) {
-        const { error } = gpPolesAntesSchema.validate(item);
-        if (error) {
-          return res.status(400).json({ success: false, message: 'Error de validación', details: error.details });
-        }
-      }
-      await GpPolesAntesModel.clearCollection();
-      const loaded = await GpPolesAntesModel.addMany(data);
-      res.json({ success: true, message: `Colección limpiada y ${loaded} registros de gp-poles-antes cargados exitosamente`, data: { loaded } });
-    } catch (err) {
-      res.status(500).json({ success: false, message: 'Error al cargar datos', error: err.message });
-    }
-  }
   // POST /maintenance/cargar-num-annee
   async cargarNumAnnee(req, res, next) {
     try {

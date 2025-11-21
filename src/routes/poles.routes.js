@@ -1,5 +1,3 @@
-const polesController = require('../controllers/poles.controller');
-router.get('/gp-poles-antes', polesController.getAllGpPolesAntes);
 const express = require('express');
 const router = express.Router();
 const polesController = require('../controllers/poles.controller');

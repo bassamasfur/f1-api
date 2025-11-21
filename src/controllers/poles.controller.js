@@ -1,4 +1,3 @@
-const GpPolesAntesModel = require('../models/gpPolesAntes.model');
 const PoleNumeroModel = require('../models/poleNumero.model');
 const PolesConsecutiveModel = require('../models/polesConsecutive.model');
 const PolesConsecutiveDebutModel = require('../models/polesConsecutiveDebut.model');
@@ -6,19 +5,6 @@ const PolesEnUnAnioModel = require('../models/polesEnUnAnio.model');
 const NumAnneeModel = require('../models/numAnnee.model');
 
 class PolesController {
-  // GET /poles/gp-poles-antes
-  async getAllGpPolesAntes(req, res) {
-    try {
-      const data = await GpPolesAntesModel.getAll();
-      res.status(200).json({
-        success: true,
-        count: data.length,
-        data
-      });
-    } catch (err) {
-      res.status(500).json({ success: false, error: err.message });
-    }
-  }
   async getAllNumAnnee(req, res, next) {
     try {
       const data = await NumAnneeModel.getAll();

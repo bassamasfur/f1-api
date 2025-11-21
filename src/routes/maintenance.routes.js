@@ -1,5 +1,3 @@
-const polesMaintenanceController = require('../controllers/poles.maintenance.controller');
-router.post('/cargar-gp-poles-antes', polesMaintenanceController.cargarGpPolesAntes);
 const express = require('express');
 const router = express.Router();
 const maintenanceController = require('../controllers/maintenance.controller');
