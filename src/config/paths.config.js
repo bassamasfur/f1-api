@@ -5,6 +5,9 @@ const path = require('path');
  * Configuración centralizada de rutas del proyecto
  */
 module.exports = {
+  polesConsecutive: {
+    jsonFile: path.join(__dirname, '../../recursos/poles-consecutive.json')
+  },
   poleNumero: {
     jsonFile: path.join(__dirname, '../../recursos/pole-numero.json')
   },

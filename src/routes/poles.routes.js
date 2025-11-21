@@ -9,4 +9,11 @@ const polesController = require('../controllers/poles.controller');
  */
 router.get('/pole-numero', polesController.getAllPoleNumero);
 
+/**
+ * @route   GET /api/poles/poles-consecutive
+ * @desc    Obtener todos los pilotos con poles consecutivas
+ * @access  Public
+ */
+router.get('/poles-consecutive', polesController.getAllPolesConsecutive);
+
 module.exports = router;

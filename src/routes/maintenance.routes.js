@@ -100,4 +100,11 @@ router.post('/cargar-gp-antes-victoria', victoriasMaintenanceController.cargarGp
  */
 router.post('/cargar-pole-numero', polesMaintenanceController.cargarPoleNumero);
 
+/**
+ * @route   POST /api/maintenance/cargar-poles-consecutive
+ * @desc    Cargar archivo JSON de poles-consecutive a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-poles-consecutive', polesMaintenanceController.cargarPolesConsecutive);
+
 module.exports = router;
