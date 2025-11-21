@@ -30,4 +30,11 @@ router.get('/poles-consecutive-debut', polesController.getAllPolesConsecutiveDeb
  */
 router.get('/poles-en-un-anio', polesController.getAllPolesEnUnAnio);
 
+/**
+ * @route   GET /api/poles/num-annee
+ * @desc    Obtener todos los pilotos con num-annee
+ * @access  Public
+ */
+router.get('/num-annee', polesController.getAllNumAnnee);
+
 module.exports = router;

@@ -14,6 +14,9 @@ module.exports = {
   polesEnUnAnio: {
     jsonFile: path.join(__dirname, '../../recursos/poles-en-un-anio.json')
   },
+  numAnnee: {
+    jsonFile: path.join(__dirname, '../../recursos/num-annee.json')
+  },
   poleNumero: {
     jsonFile: path.join(__dirname, '../../recursos/pole-numero.json')
   },

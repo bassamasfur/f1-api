@@ -8,8 +8,33 @@ const polesConsecutiveDebutSchema = require('../validators/polesConsecutiveDebut
 const PolesConsecutiveDebutModel = require('../models/polesConsecutiveDebut.model');
 const polesEnUnAnioSchema = require('../validators/polesEnUnAnio.validator');
 const PolesEnUnAnioModel = require('../models/polesEnUnAnio.model');
+const numAnneeSchema = require('../validators/numAnnee.validator');
+const NumAnneeModel = require('../models/numAnnee.model');
 
 class PolesMaintenanceController {
+  // POST /maintenance/cargar-num-annee
+  async cargarNumAnnee(req, res, next) {
+    try {
+      const jsonData = fs.readFileSync(paths.numAnnee.jsonFile, 'utf8');
+      const numAnneeData = JSON.parse(jsonData);
+
+      // Validar cada registro
+      for (const item of numAnneeData) {
+        const { error } = numAnneeSchema.validate(item);
+        if (error) {
+          return res.status(400).json({ success: false, message: 'Error de validación', details: error.details });
+        }
+      }
+
+      // Limpiar colección
+      const deleted = await NumAnneeModel.clearCollection();
+      // Cargar datos
+      const loaded = await NumAnneeModel.addMany(numAnneeData);
+      res.json({ success: true, message: `Colección limpiada y ${loaded} registros de num-annee cargados exitosamente`, data: { deleted, loaded } });
+    } catch (err) {
+      res.status(500).json({ success: false, message: 'Error al cargar datos', error: err.message });
+    }
+  }
   // POST /maintenance/cargar-poles-en-un-anio
   async cargarPolesEnUnAnio(req, res, next) {
     try {

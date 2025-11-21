@@ -121,4 +121,11 @@ router.post('/cargar-poles-consecutive-debut', polesMaintenanceController.cargar
  */
 router.post('/cargar-poles-en-un-anio', polesMaintenanceController.cargarPolesEnUnAnio);
 
+/**
+ * @route   POST /api/maintenance/cargar-num-annee
+ * @desc    Cargar archivo JSON de num-annee a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-num-annee', polesMaintenanceController.cargarNumAnnee);
+
 module.exports = router;
