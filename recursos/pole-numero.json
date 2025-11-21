@@ -1,0 +1,644 @@
+[
+ {
+  "ID": 1,
+  "nombre": "HAMILTON Lewis",
+  "poles": 104,
+  "porcentaje": 27.59
+ },
+ {
+  "ID": 2,
+  "nombre": "SCHUMACHER Michael",
+  "poles": 68,
+  "porcentaje": 22.08
+ },
+ {
+  "ID": 3,
+  "nombre": "SENNA Ayrton",
+  "poles": 65,
+  "porcentaje": 40.37
+ },
+ {
+  "ID": 4,
+  "nombre": "VETTEL Sebastian",
+  "poles": 57,
+  "porcentaje": 19
+ },
+ {
+  "ID": 5,
+  "nombre": "VERSTAPPEN Max",
+  "poles": 47,
+  "porcentaje": 20.43
+ },
+ {
+  "ID": 6,
+  "nombre": "CLARK Jim",
+  "poles": 33,
+  "porcentaje": 45.83
+ },
+ {
+  "ID": 7,
+  "nombre": "PROST Alain",
+  "poles": 33,
+  "porcentaje": 16.42
+ },
+ {
+  "ID": 8,
+  "nombre": "MANSELL Nigel",
+  "poles": 32,
+  "porcentaje": 17.11
+ },
+ {
+  "ID": 9,
+  "nombre": "ROSBERG Nico",
+  "poles": 30,
+  "porcentaje": 14.56
+ },
+ {
+  "ID": 10,
+  "nombre": "FANGIO Juan Manuel",
+  "poles": 29,
+  "porcentaje": 56.86
+ },
+ {
+  "ID": 11,
+  "nombre": "LECLERC Charles",
+  "poles": 27,
+  "porcentaje": 15.88
+ },
+ {
+  "ID": 12,
+  "nombre": "HAKKINEN Mika",
+  "poles": 26,
+  "porcentaje": 16.05
+ },
+ {
+  "ID": 13,
+  "nombre": "LAUDA Niki",
+  "poles": 24,
+  "porcentaje": 13.95
+ },
+ {
+  "ID": 14,
+  "nombre": "PIQUET Nelson",
+  "poles": 24,
+  "porcentaje": 11.76
+ },
+ {
+  "ID": 15,
+  "nombre": "ALONSO Fernando",
+  "poles": 22,
+  "porcentaje": 5.18
+ },
+ {
+  "ID": 16,
+  "nombre": "HILL Damon",
+  "poles": 20,
+  "porcentaje": 17.24
+ },
+ {
+  "ID": 17,
+  "nombre": "BOTTAS Valtteri",
+  "poles": 20,
+  "porcentaje": 8.13
+ },
+ {
+  "ID": 18,
+  "nombre": "ANDRETTI Mario",
+  "poles": 18,
+  "porcentaje": 14.06
+ },
+ {
+  "ID": 19,
+  "nombre": "ARNOUX René",
+  "poles": 18,
+  "porcentaje": 12.08
+ },
+ {
+  "ID": 20,
+  "nombre": "RAIKKONEN Kimi",
+  "poles": 18,
+  "porcentaje": 5.11
+ },
+ {
+  "ID": 21,
+  "nombre": "STEWART Jackie",
+  "poles": 17,
+  "porcentaje": 17
+ },
+ {
+  "ID": 22,
+  "nombre": "MOSS Stirling",
+  "poles": 16,
+  "porcentaje": 24.24
+ },
+ {
+  "ID": 23,
+  "nombre": "MASSA Felipe",
+  "poles": 16,
+  "porcentaje": 5.93
+ },
+ {
+  "ID": 24,
+  "nombre": "NORRIS Lando",
+  "poles": 15,
+  "porcentaje": 10.07
+ },
+ {
+  "ID": 25,
+  "nombre": "ASCARI Alberto",
+  "poles": 14,
+  "porcentaje": 43.75
+ },
+ {
+  "ID": 26,
+  "nombre": "HUNT James",
+  "poles": 14,
+  "porcentaje": 15.22
+ },
+ {
+  "ID": 27,
+  "nombre": "PETERSON Ronnie",
+  "poles": 14,
+  "porcentaje": 11.38
+ },
+ {
+  "ID": 28,
+  "nombre": "BARRICHELLO Rubens",
+  "poles": 14,
+  "porcentaje": 4.31
+ },
+ {
+  "ID": 29,
+  "nombre": "HILL Graham",
+  "poles": 13,
+  "porcentaje": 7.43
+ },
+ {
+  "ID": 30,
+  "nombre": "BRABHAM Jack",
+  "poles": 13,
+  "porcentaje": 10.48
+ },
+ {
+  "ID": 31,
+  "nombre": "ICKX Jacky",
+  "poles": 13,
+  "porcentaje": 11.4
+ },
+ {
+  "ID": 32,
+  "nombre": "VILLENEUVE Jacques",
+  "poles": 13,
+  "porcentaje": 7.88
+ },
+ {
+  "ID": 33,
+  "nombre": "MONTOYA Juan-Pablo",
+  "poles": 13,
+  "porcentaje": 13.68
+ },
+ {
+  "ID": 34,
+  "nombre": "WEBBER Mark",
+  "poles": 13,
+  "porcentaje": 6.02
+ },
+ {
+  "ID": 35,
+  "nombre": "BERGER Gerhard",
+  "poles": 12,
+  "porcentaje": 5.71
+ },
+ {
+  "ID": 36,
+  "nombre": "COULTHARD David",
+  "poles": 12,
+  "porcentaje": 4.86
+ },
+ {
+  "ID": 37,
+  "nombre": "RINDT Jochen",
+  "poles": 10,
+  "porcentaje": 16.67
+ },
+ {
+  "ID": 38,
+  "nombre": "SURTEES John",
+  "poles": 8,
+  "porcentaje": 7.21
+ },
+ {
+  "ID": 39,
+  "nombre": "PATRESE Riccardo",
+  "poles": 8,
+  "porcentaje": 3.11
+ },
+ {
+  "ID": 40,
+  "nombre": "BUTTON Jenson",
+  "poles": 8,
+  "porcentaje": 2.59
+ },
+ {
+  "ID": 41,
+  "nombre": "LAFFITE Jacques",
+  "poles": 7,
+  "porcentaje": 3.95
+ },
+ {
+  "ID": 42,
+  "nombre": "RUSSELL George",
+  "poles": 7,
+  "porcentaje": 4.7
+ },
+ {
+  "ID": 43,
+  "nombre": "HILL Phil",
+  "poles": 6,
+  "porcentaje": 12.77
+ },
+ {
+  "ID": 44,
+  "nombre": "FITTIPALDI Emerson",
+  "poles": 6,
+  "porcentaje": 4.14
+ },
+ {
+  "ID": 45,
+  "nombre": "JABOUILLE Jean-Pierre",
+  "poles": 6,
+  "porcentaje": 12.24
+ },
+ {
+  "ID": 46,
+  "nombre": "JONES Alan",
+  "poles": 6,
+  "porcentaje": 5.17
+ },
+ {
+  "ID": 47,
+  "nombre": "REUTEMANN Carlos",
+  "poles": 6,
+  "porcentaje": 4.11
+ },
+ {
+  "ID": 48,
+  "nombre": "SCHUMACHER Ralf",
+  "poles": 6,
+  "porcentaje": 3.33
+ },
+ {
+  "ID": 49,
+  "nombre": "SAINZ Carlos",
+  "poles": 6,
+  "porcentaje": 2.62
+ },
+ {
+  "ID": 50,
+  "nombre": "FARINA Giuseppe",
+  "poles": 5,
+  "porcentaje": 14.71
+ },
+ {
+  "ID": 51,
+  "nombre": "AMON Chris",
+  "poles": 5,
+  "porcentaje": 5.05
+ },
+ {
+  "ID": 52,
+  "nombre": "REGAZZONI Clay",
+  "poles": 5,
+  "porcentaje": 3.79
+ },
+ {
+  "ID": 53,
+  "nombre": "TAMBAY Patrick",
+  "poles": 5,
+  "porcentaje": 4.31
+ },
+ {
+  "ID": 54,
+  "nombre": "ROSBERG Keke",
+  "poles": 5,
+  "porcentaje": 4.39
+ },
+ {
+  "ID": 55,
+  "nombre": "PIASTRI Oscar",
+  "poles": 5,
+  "porcentaje": 7.46
+ },
+ {
+  "ID": 56,
+  "nombre": "HAWTHORN Mike",
+  "poles": 4,
+  "porcentaje": 8.7
+ },
+ {
+  "ID": 57,
+  "nombre": "PIRONI Didier",
+  "poles": 4,
+  "porcentaje": 5.63
+ },
+ {
+  "ID": 58,
+  "nombre": "TRULLI Jarno",
+  "poles": 4,
+  "porcentaje": 1.56
+ },
+ {
+  "ID": 59,
+  "nombre": "FISICHELLA Giancarlo",
+  "poles": 4,
+  "porcentaje": 1.74
+ },
+ {
+  "ID": 60,
+  "nombre": "GONZALEZ Jose-Froilan",
+  "poles": 3,
+  "porcentaje": 11.54
+ },
+ {
+  "ID": 61,
+  "nombre": "BROOKS Tony",
+  "poles": 3,
+  "porcentaje": 7.69
+ },
+ {
+  "ID": 62,
+  "nombre": "GURNEY Dan",
+  "poles": 3,
+  "porcentaje": 3.49
+ },
+ {
+  "ID": 63,
+  "nombre": "JARIER Jean-Pierre",
+  "poles": 3,
+  "porcentaje": 2.19
+ },
+ {
+  "ID": 64,
+  "nombre": "SCHECKTER Jody",
+  "poles": 3,
+  "porcentaje": 2.68
+ },
+ {
+  "ID": 65,
+  "nombre": "De ANGELIS Elio",
+  "poles": 3,
+  "porcentaje": 2.78
+ },
+ {
+  "ID": 66,
+  "nombre": "FABI Teo",
+  "poles": 3,
+  "porcentaje": 4.6899999999999995
+ },
+ {
+  "ID": 67,
+  "nombre": "RICCIARDO Daniel",
+  "poles": 3,
+  "porcentaje": 1.17
+ },
+ {
+  "ID": 68,
+  "nombre": "PEREZ Sergio",
+  "poles": 3,
+  "porcentaje": 1.06
+ },
+ {
+  "ID": 69,
+  "nombre": "LEWIS-EVANS Stuart",
+  "poles": 2,
+  "porcentaje": 14.29
+ },
+ {
+  "ID": 70,
+  "nombre": "SIFFERT Jo",
+  "poles": 2,
+  "porcentaje": 2.06
+ },
+ {
+  "ID": 71,
+  "nombre": "WATSON John",
+  "poles": 2,
+  "porcentaje": 1.32
+ },
+ {
+  "ID": 72,
+  "nombre": "VILLENEUVE Gilles",
+  "poles": 2,
+  "porcentaje": 2.99
+ },
+ {
+  "ID": 73,
+  "nombre": "ALBORETO Michele",
+  "poles": 2,
+  "porcentaje": 1.03
+ },
+ {
+  "ID": 74,
+  "nombre": "ALESI Jean",
+  "poles": 2,
+  "porcentaje": 1
+ },
+ {
+  "ID": 75,
+  "nombre": "FRENTZEN Heinz-Harald",
+  "poles": 2,
+  "porcentaje": 1.27
+ },
+ {
+  "ID": 76,
+  "nombre": "FAULKNER Walt",
+  "poles": 1,
+  "porcentaje": 25
+ },
+ {
+  "ID": 77,
+  "nombre": "NALON Duke",
+  "poles": 1,
+  "porcentaje": 33.33
+ },
+ {
+  "ID": 78,
+  "nombre": "AGABASHIAN Fred",
+  "poles": 1,
+  "porcentaje": 12.5
+ },
+ {
+  "ID": 79,
+  "nombre": "VUKOVICH Bill",
+  "poles": 1,
+  "porcentaje": 20
+ },
+ {
+  "ID": 80,
+  "nombre": "McGRATH Jack",
+  "poles": 1,
+  "porcentaje": 16.67
+ },
+ {
+  "ID": 81,
+  "nombre": "HOYT Jerry",
+  "poles": 1,
+  "porcentaje": 25
+ },
+ {
+  "ID": 82,
+  "nombre": "CASTELLOTTI Eugenio",
+  "poles": 1,
+  "porcentaje": 7.14
+ },
+ {
+  "ID": 83,
+  "nombre": "FLAHERTY Pat",
+  "poles": 1,
+  "porcentaje": 20
+ },
+ {
+  "ID": 84,
+  "nombre": "O'CONNOR Pat",
+  "poles": 1,
+  "porcentaje": 20
+ },
+ {
+  "ID": 85,
+  "nombre": "RATHMANN Dick",
+  "poles": 1,
+  "porcentaje": 20
+ },
+ {
+  "ID": 86,
+  "nombre": "THOMSON Johnny",
+  "poles": 1,
+  "porcentaje": 12.5
+ },
+ {
+  "ID": 87,
+  "nombre": "BONNIER Jo",
+  "poles": 1,
+  "porcentaje": 0.96
+ },
+ {
+  "ID": 88,
+  "nombre": "SACHS Eddie",
+  "poles": 1,
+  "porcentaje": 25
+ },
+ {
+  "ID": 89,
+  "nombre": "von TRIPS Wolfgang",
+  "poles": 1,
+  "porcentaje": 3.85
+ },
+ {
+  "ID": 90,
+  "nombre": "BANDINI Lorenzo",
+  "poles": 1,
+  "porcentaje": 2.38
+ },
+ {
+  "ID": 91,
+  "nombre": "PARKES Mike",
+  "poles": 1,
+  "porcentaje": 16.67
+ },
+ {
+  "ID": 92,
+  "nombre": "REVSON Peter",
+  "poles": 1,
+  "porcentaje": 3.33
+ },
+ {
+  "ID": 93,
+  "nombre": "HULME Denny",
+  "poles": 1,
+  "porcentaje": 0.89
+ },
+ {
+  "ID": 94,
+  "nombre": "DEPAILLER Patrick",
+  "poles": 1,
+  "porcentaje": 1.05
+ },
+ {
+  "ID": 95,
+  "nombre": "PACE Carlos",
+  "poles": 1,
+  "porcentaje": 1.39
+ },
+ {
+  "ID": 96,
+  "nombre": "BRAMBILLA Vittorio",
+  "poles": 1,
+  "porcentaje": 1.35
+ },
+ {
+  "ID": 97,
+  "nombre": "PRYCE Tom",
+  "poles": 1,
+  "porcentaje": 2.38
+ },
+ {
+  "ID": 98,
+  "nombre": "GIACOMELLI Bruno",
+  "poles": 1,
+  "porcentaje": 1.45
+ },
+ {
+  "ID": 99,
+  "nombre": "De CESARIS Andrea",
+  "poles": 1,
+  "porcentaje": 0.48
+ },
+ {
+  "ID": 100,
+  "nombre": "BOUTSEN Thierry",
+  "poles": 1,
+  "porcentaje": 0.61
+ },
+ {
+  "ID": 101,
+  "nombre": "HEIDFELD Nick",
+  "poles": 1,
+  "porcentaje": 0.54
+ },
+ {
+  "ID": 102,
+  "nombre": "KUBICA Robert",
+  "poles": 1,
+  "porcentaje": 1.01
+ },
+ {
+  "ID": 103,
+  "nombre": "KOVALAINEN Heikki",
+  "poles": 1,
+  "porcentaje": 0.89
+ },
+ {
+  "ID": 104,
+  "nombre": "HULKENBERG Nico",
+  "poles": 1,
+  "porcentaje": 0.4
+ },
+ {
+  "ID": 105,
+  "nombre": "MALDONADO Pastor",
+  "poles": 1,
+  "porcentaje": 1.04
+ },
+ {
+  "ID": 106,
+  "nombre": "STROLL Lance",
+  "poles": 1,
+  "porcentaje": 0.53
+ },
+ {
+  "ID": 107,
+  "nombre": "MAGNUSSEN Kevin",
+  "poles": 1,
+  "porcentaje": 0.54
+ }
+]
