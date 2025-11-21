@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const maintenanceController = require('../controllers/maintenance.controller');
 const victoriasMaintenanceController = require('../controllers/victorias.maintenance.controller');
+const polesMaintenanceController = require('../controllers/poles.maintenance.controller');
 
 /**
  * @route   POST /api/maintenance/cargar-campeones
@@ -79,7 +80,6 @@ router.post('/cargar-victoria-vuelta-fast', victoriasMaintenanceController.carga
  */
 router.post('/cargar-annee-consecutive', victoriasMaintenanceController.cargarAnneeConsecutive);
 
-module.exports = router;
 /**
  * @route   POST /api/maintenance/cargar-victoria-sin-pole
  * @desc    Cargar archivo JSON de victoria sin pole a Firebase (SIEMPRE borra todo antes)
@@ -92,3 +92,12 @@ router.post('/cargar-victoria-sin-pole', victoriasMaintenanceController.cargarVi
  * @access  Admin
  */
 router.post('/cargar-gp-antes-victoria', victoriasMaintenanceController.cargarGpAntesVictoria);
+
+/**
+ * @route   POST /api/maintenance/cargar-pole-numero
+ * @desc    Cargar archivo JSON de pole-numero a Firebase (SIEMPRE borra todo antes)
+ * @access  Admin
+ */
+router.post('/cargar-pole-numero', polesMaintenanceController.cargarPoleNumero);
+
+module.exports = router;

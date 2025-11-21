@@ -20,6 +20,7 @@ datosf1-firebase-adminsdk-*.json
 !recursos/annee-consecutive.json
 !recursos/gp-antes_victoria.json
 !recursos/victoria-sin-pole.json
+!recursos/victoria-vuelta-fast.json
 !vercel.json
 
 # Logs

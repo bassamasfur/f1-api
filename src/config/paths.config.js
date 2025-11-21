@@ -1,9 +1,15 @@
+  poleNumero: {
+    jsonFile: path.join(__dirname, '../../recursos/pole-numero.json')
+  },
 const path = require('path');
 
 /**
  * Configuración centralizada de rutas del proyecto
  */
 module.exports = {
+  poleNumero: {
+    jsonFile: path.join(__dirname, '../../recursos/pole-numero.json')
+  },
   // Rutas de recursos
   champions: {
     jsonFile: path.join(__dirname, '../../recursos/campeones_f1.json')
