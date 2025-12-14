@@ -590,5 +590,21 @@
     "equipo": "Red Bull",
     "victorias": 19,
     "puntos": 575
+  },
+  "2024": {
+    "nombre": "Max",
+    "apellido": "Verstappen",
+    "pais": "Netherlands",
+    "equipo": "Red Bull",
+    "victorias": 9,
+    "puntos": 437
+  },
+  "2025": {
+    "nombre": "Lando",
+    "apellido": "Norris",
+    "pais": "United Kingdom",
+    "equipo": "McLaren",
+    "victorias": 7,
+    "puntos": 423
   }
 }

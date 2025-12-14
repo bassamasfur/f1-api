@@ -1,9 +1,9 @@
-router.post('/cargar-gp-poles-antes', polesMaintenanceController.cargarGpPolesAntes);
 const express = require('express');
 const router = express.Router();
 const maintenanceController = require('../controllers/maintenance.controller');
 const victoriasMaintenanceController = require('../controllers/victorias.maintenance.controller');
 const polesMaintenanceController = require('../controllers/poles.maintenance.controller');
+router.post('/cargar-gp-poles-antes', polesMaintenanceController.cargarGpPolesAntes);
 router.post('/cargar-poles-annee-consecutive', polesMaintenanceController.cargarPolesAnneeConsecutive);
 
 /**
