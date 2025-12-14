@@ -338,5 +338,10 @@
     "nombre": "Lewis Hamilton",
     "edad": "34 años, 9 meses, 26 días",
     "año": 2019
+  },
+   {
+    "nombre": "Lando Norris",
+    "edad": "26 años, 0 meses, 24 días",
+    "año": 2025
   }
 ]
