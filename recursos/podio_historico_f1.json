@@ -673,5 +673,14 @@
     "escuderia_subcampeon": "McLaren",
     "tercer_lugar": "Charles Leclerc",
     "escuderia_tercer_lugar": "Ferrari"
+  },
+  {
+    "año": 2025,
+    "campeon": "Lando Norris",
+    "escuderia_campeon": "McLaren",
+    "subcampeon": "Max Verstappen",
+    "escuderia_subcampeon": "Red Bull",
+    "tercer_lugar": "Oscar Piastri",
+    "escuderia_tercer_lugar": "McLaren"
   }
 ]
