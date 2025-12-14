@@ -32,5 +32,6 @@
   { "posición": 31, "piloto": "Mario Andretti",       "temporadas_antes_campeón": 10 },
   { "posición": 32, "piloto": "Jenson Button",        "temporadas_antes_campeón": 10 },
   { "posición": 33, "piloto": "Nico Rosberg",         "temporadas_antes_campeón": 11 },
-  { "posición": 34, "piloto": "Nigel Mansell",        "temporadas_antes_campeón": 13 }
+  { "posición": 34, "piloto": "Nigel Mansell",        "temporadas_antes_campeón": 13 },
+  { "posición": 35, "piloto": "Lando Norris",        "temporadas_antes_campeón": 7 }
 ]
